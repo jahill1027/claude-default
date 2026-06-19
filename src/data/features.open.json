@@ -1,0 +1,2144 @@
+[
+  {
+    "id": "berserker-frenzy",
+    "name": "Frenzy",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "berserker",
+    "level": 3,
+    "description": "You go into a frenzy when you rage. While raging, you can make a single melee weapon attack as a bonus action on each of your turns."
+  },
+  {
+    "id": "berserker-ruthless-bearing",
+    "name": "Ruthless Bearing",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "berserker",
+    "level": 3,
+    "description": "Your ferocity looms at all times. You gain proficiency in the Intimidation skill. If you are already proficient, double your PB instead for Intimidation checks."
+  },
+  {
+    "id": "berserker-mindless-rage",
+    "name": "Mindless Rage",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "berserker",
+    "level": 7,
+    "description": "While raging, you gain the following benefits:\n\n• You ignore any levels of exhaustion you currently suffer for the duration of your rage.\n\n• You can’t be charmed or frightened. If you are already charmed or frightened when you enter a rage, the effect is suspended for the duration of the rage.\n\n• If you score a critical hit or reduce a creature to 0 HP, you gain a number of temporary hit points equal to your {PB + your CON modifier}. These hit points last until expended or until you finish a short or long rest."
+  },
+  {
+    "id": "berserker-intimidating-presence",
+    "name": "Intimidating Presence",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "berserker",
+    "level": 11,
+    "description": "Your weapon attacks deal an amount of additional damage, equal to your PB (of the same damage type as the weapon), to frightened creatures.\nIn addition, as a bonus action, you can attempt to frighten a number of creatures, up to your PB, within 30 feet of you that can see or hear you. Each target must make a WIS save (DC 8 + your PB + your CHA modifier + the number temporary hit points you currently have from your Mindless Rage feature). On a failure, a creature is frightened of you until the end of your next turn.\nOn subsequent turns, you can use your bonus action to extend the duration of this effect on each frightened creature until the end of your next turn. This effect ends if the creature ends its turn more than 60 feet away from you or can no longer see or hear you.\nIf the creature succeeds on its save, you can’t use this feature on that creature again for 24 hours."
+  },
+  {
+    "id": "berserker-retaliation",
+    "name": "Retaliation",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "berserker",
+    "level": 15,
+    "description": "When a creature hits or misses you with an attack, you can use your reaction to move up to half your speed toward that creature and make a single melee attack against it. If the creature is Large or larger, you have advantage on the attack roll."
+  },
+  {
+    "id": "lore-bardic-performance",
+    "name": "Bardic Performance",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "lore",
+    "level": 3,
+    "description": "You gain the following Bardic Performance option.\nBardic Performance: Ode to Heroes"
+  },
+  {
+    "id": "lore-jack-of-all-trades",
+    "name": "Jack of All Trades",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "lore",
+    "level": 3,
+    "description": "You make it your business to collect lessons and practical guidance from the stories, songs, and cultures you encounter. You can add half your PB, rounded down, to any ability check you make that doesn’t already include your PB."
+  },
+  {
+    "id": "lore-swift-ritual",
+    "name": "Swift Ritual",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "lore",
+    "level": 7,
+    "description": "You can cast an Arcane ritual you know as an action, instead of using the ritual’s listed casting time. You must still provide all other components necessary for the casting. Once used, you can't use this feature again until you finish a long rest."
+  },
+  {
+    "id": "lore-magical-rites",
+    "name": "Magical Rites",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "lore",
+    "level": 11,
+    "description": "You learn two ritual spells of your choice from any source list. Each spell you choose must be of a circle for which you have spell slots, as shown in the Bard Progression table. The chosen rituals count as Arcane spells for you and aren't included in the number in the Rituals Known column of the Bard Progression table."
+  },
+  {
+    "id": "lore-peerless-skill",
+    "name": "Peerless Skill",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "lore",
+    "level": 15,
+    "description": "When you make an ability check and have at least one use of your Bardic Inspiration feature available, you can use it to roll a Bardic Inspiration die and add the number rolled to your ability check. If you succeed on the check, you get to keep the Bardic Inspiration die, but if you fail the check, the die is expended."
+  },
+  {
+    "id": "life-domain-channel-divinity-preserve-life",
+    "name": "Channel Divinity: Preserve Life",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "life-domain",
+    "level": 3,
+    "description": "As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to 5 × your cleric level.\nChoose any creatures within 30 feet of you and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. This healing has no effect on Undead or Constructs."
+  },
+  {
+    "id": "life-domain-disciple-of-life",
+    "name": "Disciple of Life",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "life-domain",
+    "level": 3,
+    "description": "Your healing spells are more effective. When you use a Divine spell of 1st circle or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell’s circle."
+  },
+  {
+    "id": "life-domain-life-domain-spells",
+    "name": "Life Domain Spells",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "life-domain",
+    "level": 3,
+    "description": "You gain domain spells at the cleric levels listed in the Life Domain Spells table. See the Cleric Subclass class feature for how these spells work."
+  },
+  {
+    "id": "life-domain-blessed-healer",
+    "name": "Blessed Healer",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "life-domain",
+    "level": 7,
+    "description": "Healing spells you cast on others heal you as well. When you cast a Divine spell of 1st circle or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell’s circle."
+  },
+  {
+    "id": "life-domain-greater-preservation",
+    "name": "Greater Preservation",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "life-domain",
+    "level": 11,
+    "description": "The Preserve Life effect of your Channel Divinity feature can now affect any creatures within 60 feet of you. In addition, when you use Preserve Life, one target of your choice can also receive one of the following benefits:\n\n• Cure all diseases affecting the target.\n\n• End one of the following conditions affecting the target: blinded, deafened, paralyzed, or poisoned.\n\n• Neutralize all poisons affecting the target."
+  },
+  {
+    "id": "life-domain-perfect-healing",
+    "name": "Perfect Healing",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "life-domain",
+    "level": 15,
+    "description": "When you cast a Divine spell of 1st circle or higher that restores hit points, you automatically restore the maximum possible number of hit points. For example, if a cure wounds spell heals 1d8 + 3 hit points, rather than rolling, the target heals 11 hit points."
+  },
+  {
+    "id": "war-domain-channel-divinity-mark-of-thiumph",
+    "name": "Channel Divinity: Mark of Thiumph",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "war-domain",
+    "level": 3,
+    "description": "Starting at 3rd level, you can use your Channel Divinity to mystically mark a foe, making them easier to defeat.\nAs a bonus action, you present your holy symbol and mystically mark one creature you can see within 30 feet of you. Until the start of your next turn, any creature who attacks a marked creature has advantage on the first attack roll they make against it."
+  },
+  {
+    "id": "war-domain-disciple-of-war",
+    "name": "Disciple of War",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "war-domain",
+    "level": 3,
+    "description": "Victory brings you closer to the divine, inspiring you to press beyond your normal limits. When you successfully hit a creature while using the Attack action, you can choose to make an additional weapon attack as part of that same action.\nYou can use this feature a number of times equal to your PB. You regain all expended uses when you finish a long rest."
+  },
+  {
+    "id": "war-domain-war-domain-spells",
+    "name": "War Domain Spells",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "war-domain",
+    "level": 3,
+    "description": "You gain domain spells at the cleric levels listed in the War Domain Spells table. See the Cleric Subclass class feature for how these spells work."
+  },
+  {
+    "id": "war-domain-blessed-warrior",
+    "name": "Blessed Warrior",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "war-domain",
+    "level": 7,
+    "description": "Attacks you make are particularly potent. When you deal damage with a weapon or spell attack made with a Divine spell, you can reroll any 1s you roll on the damage dice. You must take the new result for any dice rerolled in this way."
+  },
+  {
+    "id": "war-domain-greater-triumph",
+    "name": "Greater Triumph",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "war-domain",
+    "level": 11,
+    "description": "When you use the Mark of Triumph effect of your Channel Divinity feature, you can mystically mark a number of creatures equal to your PB. All targets must be within 60 feet of you.\nIn addition, when a creature marked by your Mark of Triumph feature is reduced to 0 HP, you can use your reaction to move the mark to a different target within 60 feet of you that you can see. A mark moved in this way still disappears at the start of your next turn, as normal."
+  },
+  {
+    "id": "war-domain-holy-strike",
+    "name": "Holy Strike",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "war-domain",
+    "level": 15,
+    "description": "Once per turn, when you successfully hit a creature with a weapon or spell attack made with a Divine spell, you can treat the attack as if you rolled a critical hit."
+  },
+  {
+    "id": "shifter-potent-forms",
+    "name": "Potent Forms",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "shifter",
+    "level": 3,
+    "description": "You can select more powerful creatures for the known forms used with the Beast Form effect of your Wild Shape feature. When you gain this feature, you can choose any Beast or creature with the Animal tag with a CR of 1 or lower as a known form, and you use the hit points of the creature when you use Beast Form, not the Hit Points by Form Size table.\nIn addition, you can now speak any language you know while in beast form—even if your chosen form would not typically allow you to do so. However, you still can’t cast spells while transformed, even if a spell requires only a verbal component.\nAt higher druid levels, you can choose beast forms with a CR as high as your druid level divided by 3, rounded down (ignoring CR limitations in your Improved Beast Form feature). For example, upon achieving 6th level of druid, you can choose any Beast of CR 2 or lower as a known form, CR 3 or lower at 9th level, and so on—as shown in the Potent Forms table."
+  },
+  {
+    "id": "shifter-quick-shift",
+    "name": "Quick Shift",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "shifter",
+    "level": 3,
+    "description": "By delving into the mysteries of the shifters, you have learned to change form more rapidly. When you use the Beast Form effect of your Wild Shape feature, you can transform as a bonus action instead of as an action."
+  },
+  {
+    "id": "shifter-shifter-ring-spells",
+    "name": "Shifter Ring Spells",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "shifter",
+    "level": 3,
+    "description": "You gain ring spells at the druid levels listed in the Shifter Ring Spells table. See the Druid Subclass class feature for how these spells work."
+  },
+  {
+    "id": "shifter-beasts-fury",
+    "name": "Beast’s Fury",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "shifter",
+    "level": 7,
+    "description": "Immediately after you take the Attack action on your turn while in beast form, you can use your bonus action to make a single unarmed strike with your claws, hooves, fangs, or whatever natural weapon suits your chosen form. This attack deals 1d6 + your PB damage, and you are considered proficient with it. You decide if this attack deals bludgeoning, piercing, or slashing damage when you first assume your beast form.\nIn addition, all damage you deal with melee weapon attacks while in beast form now counts as magical damage for the purposes of overcoming resistance or immunity to nonmagical damage."
+  },
+  {
+    "id": "shifter-elemental-infusion",
+    "name": "Elemental Infusion",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "shifter",
+    "level": 11,
+    "description": "By expending two uses of the Beast Form effect of your Wild Shape feature, you can infuse your chosen form with one of the four elemental powers described here. Alternatively, you can use your reaction to spend one use of Wild Shape while already transformed by the Beast Form effect, either infusing yourself with one of the following powers or changing which power is active.\nAir\n\nEarth\n\nFire\n\nWater"
+  },
+  {
+    "id": "shifter-manifold-mind",
+    "name": "Manifold Mind",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "shifter",
+    "level": 15,
+    "description": "You can now cast Primordial spells while in beast form, and your form doesn't hinder performing the somatic and verbal components of spells. You must still provide any required material components as normal."
+  },
+  {
+    "id": "weapon-master-mastery",
+    "name": "Mastery",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "weapon-master",
+    "level": 3,
+    "description": "Choose three types of simple or martial weapons with which you have proficiency. You have mastered the use of those three weapons.\nOnce per turn, when you roll damage for an attack with a weapon you have mastered, you can reroll the weapon’s damage dice and use either result.\nAlternatively, once per turn, when you use a weapon option for a weapon that you have mastered, you can roll the attack’s damage even if the weapon option doesn’t normally allow it."
+  },
+  {
+    "id": "weapon-master-stunts",
+    "name": "Stunts",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "weapon-master",
+    "level": 3,
+    "description": "As part of your training, you’ve learned to use unique tactics with certain weapons. You gain access to special maneuvers called stunts.\nTo use a stunt, you must wield a weapon that matches the weapon type listed in the stunt description (if one is listed). You can only use one stunt per turn. You gain access to advanced stunts at higher levels.\nAll stunts listed are available to you at 3rd level. You can perform stunts a number of times equal to your PB + 1. After that, you must finish a short or long rest to regain expended uses.\nSaves. Some stunts require your target to make a save to resist its effects. The save DC for these stunts is calculated as follows:\nStunt Save DC = 8 + your proficiency bonus (PB) + your STR or DEX modifier (your choice)\nStunts are presented in alphabetical order:"
+  },
+  {
+    "id": "weapon-master-deadly-flourish",
+    "name": "Deadly Flourish",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "weapon-master",
+    "level": 7,
+    "description": "Attacks made with weapons you have mastered through your Mastery feature score critical hits on rolls of 19 or 20. When you score a critical hit, you can use your reaction to do one of the following:\n\n• Make a ranged weapon attack against a number of creatures equal to your PB within 15 feet of the target hit by your critical hit.\n\n• Make a separate melee attack against each creature within 5 feet of you."
+  },
+  {
+    "id": "weapon-master-advanced-stunts",
+    "name": "Advanced Stunts",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "weapon-master",
+    "level": 11,
+    "description": "The following powerful stunts are available to you whenever you could use a stunt."
+  },
+  {
+    "id": "weapon-master-grand-finale",
+    "name": "Grand Finale",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "weapon-master",
+    "level": 15,
+    "description": "When you roll initiative and have no uses of your Stunts feature remaining, you can regain 3 uses. You must complete a long rest before you can use this feature again."
+  },
+  {
+    "id": "metallurgist-augment-absorbing",
+    "name": "Augment: Absorbing",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "metallurgist",
+    "level": 3,
+    "description": "You gain the following unique effect for your Augment feature. This effect can’t be replaced and doesn’t count against the number of effects that you know, as shown in the Augment Effects Known column of the Mechanist Progression table.\nAbsorbing"
+  },
+  {
+    "id": "metallurgist-mystic-metal",
+    "name": "Mystic Metal",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "metallurgist",
+    "level": 3,
+    "description": "You learn to transmute armor into a mystical form. If you spend 1 hour of uninterrupted focus in contact with a nonmagical suit of armor (which can be done as part of a short or long rest), you can transmute that armor into a suit of mystic metal. The transformation lasts until you choose to end it or until you use this feature to transmute a different suit of armor.\nAny ongoing effects from your Augment feature on the armor automatically end when the armor reverts to its normal state. If anyone other than you attempts to don the mystic metal, it instantly reverts to its normal state.\nOnce transformed, the mystic metal resembles a head-to- toe suit of metallic armor, but you choose its color, style, and other cosmetic details. Regardless of appearance, mystic metal armor is not made of natural materials such as metal or wood. Therefore, it isn’t affected by magic like the heat metal spell or abilities like that of a rust monster. The mystic metal is lightweight and doesn’t hinder movement, and you are considered proficient with it.\nYour mystic metal functions as a magic suit of armor with the following properties:\n\n• Each gauntlet of the armor functions as a simple melee weapon with the Light property (which you are proficient with). You can choose whether you use your STR or INT modifier to determine the attack bonus and damage dealt by the gauntlets. On a successful hit, a gauntlet deals 1d6 + your STR or INT modifier (your choice) magical bludgeoning damage.\n\n• If it is on the same plane as you, you can use a bonus action to summon the armor. When you do so, you choose whether the armor appears in an unoccupied space within 5 feet of you or if it appears on you, fully donned. If you are already wearing armor when you summon the mystic metal armor, it can’t appear on you.\n\n• While worn, the armor is attached to your body and can’t be removed against your will.\n\n• While you wear the armor, your AC equals 13 + your INT modifier.\n\nCreatures who handle or inspect the mystic metal can tell it isn’t a true magic item. Otherwise, it follows the rules of a typical magic item."
+  },
+  {
+    "id": "metallurgist-heavy-hitter",
+    "name": "Heavy Hitter",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "metallurgist",
+    "level": 7,
+    "description": "You learn to upgrade the offensive capabilities of your Mystic Metal feature. While wearing the armor, you gain the following benefits:\n\n• When you deal damage with a weapon attack, you deal an additional 1d6 force damage. This extra damage increases at higher levels, becoming 1d8 at 11th level and 1d10 at 15th level.\n\n• When you make a weapon attack, you score a critical hit on a roll of 19 or 20."
+  },
+  {
+    "id": "metallurgist-juggernaut",
+    "name": "Juggernaut",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "metallurgist",
+    "level": 11,
+    "description": "While wearing the armor from your Mystic Metal feature, you have proficiency in the Athletics skill, and you have advantage on any check made to initiate a grapple or shove, or to perform any weapon option that requires a STR check.\nIn addition, if you move at least 15 feet on your turn before making a melee weapon attack, you have advantage on the attack roll."
+  },
+  {
+    "id": "metallurgist-full-metal",
+    "name": "Full Metal",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "metallurgist",
+    "level": 15,
+    "description": "While wearing the armor from your Mystic Metal feature, you can use a bonus action to transform it into a nigh‑impervious state for 1 minute. If you are reduced to 0 HP, you can choose for the Full Metal feature to automatically activate (no action required).\nWhile this state is active, you are immune to bludgeoning, piercing, and slashing damage, and you have resistance to all other damage types.\nOnce this state is used, you can’t activate it again until you complete a long rest."
+  },
+  {
+    "id": "open-hand-focus-intent",
+    "name": "Focus Intent",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "open-hand",
+    "level": 3,
+    "description": "When you or a creature within 5 feet of you makes an ability check or attack roll, you can use your reaction to roll your martial arts die. The target gains a bonus or a penalty (your choice) to its roll equal to the number you rolled.\nYou can use this feature a number of times equal to your WIS modifier. You regain all expended uses when you finish a long rest."
+  },
+  {
+    "id": "open-hand-open-hand-technique",
+    "name": "Open Hand Technique",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "open-hand",
+    "level": 3,
+    "description": "You can manipulate your enemy’s energy with your own. When you hit a creature with one of the attacks granted by your Flurry of Blows technique, you can impose one of the following effects on that target:\n\n• It can’t take reactions until the end of your next turn.\n\n• It must succeed on a DEX save or be knocked prone.\n\n• It must succeed on a STR save or be pushed up to 15 feet away from you."
+  },
+  {
+    "id": "open-hand-wholeness-of-body",
+    "name": "Wholeness of Body",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "open-hand",
+    "level": 7,
+    "description": "When you roll initiative and have at least 1 hit point, you regain a number of hit points equal to your CON modifier + your monk level."
+  },
+  {
+    "id": "open-hand-tranquil-soul",
+    "name": "Tranquil Soul",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "open-hand",
+    "level": 11,
+    "description": "You have learned the way of war, so you may better walk the world in peace. As an action, you can spend 3 technique points to cast the sanctuary spell on yourself. The spell lasts until the end of your next short or long rest (or it can end early as normal)."
+  },
+  {
+    "id": "open-hand-quivering-palm",
+    "name": "Quivering Palm",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "open-hand",
+    "level": 15,
+    "description": "As an action, you can make a single unarmed strike against a creature. On a hit, you can spend 4 technique points to fill that creature with potentially lethal vibrations that last for a number of days equal to your monk level.\nFor the duration, so long as you and the target are on the same plane, you can use an action to end the vibrations, ripping the creature apart. When you do, the target must make a CON save. On a failure, the target takes force damage equal to 5 × your monk level and is paralyzed until the end of your next turn. On a success, the target is stunned for 1 minute, and at the end of each of their turns, and each time they take damage, the target can repeat the save, ending the effect on a success. A target that fails the save by 5 or more instantly dies.\nEach time you use this feature after the first, the technique cost to use it increases by 2. When you finish a long rest, the cost resets. This feature can affect only one target at a time."
+  },
+  {
+    "id": "devotion-channel-divinity",
+    "name": "Channel Divinity",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "devotion",
+    "level": 3,
+    "description": "You gain the following two Channel Divinity options."
+  },
+  {
+    "id": "devotion-devotion-oath-spells",
+    "name": "Devotion Oath Spells",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "devotion",
+    "level": 3,
+    "description": "You gain oath spells at the paladin levels listed in the Devotion Oath Spells table. See the Paladin Subclass class feature for how these spells work."
+  },
+  {
+    "id": "devotion-aura-of-devotion",
+    "name": "Aura of Devotion",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "devotion",
+    "level": 7,
+    "description": "You and friendly creatures within 10 feet of you can’t be charmed while you are conscious. This aura is enhanced by the 17th‑level Aura Improvements class feature."
+  },
+  {
+    "id": "devotion-purity-of-spirit",
+    "name": "Purity of Spirit",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "devotion",
+    "level": 11,
+    "description": "Your connection to divinity gives you constant protection from the influence of supernatural creatures. You always have the following protections against Aberrations, Celestials, Elementals, Fey, Fiends, Undead, and creatures with the Outsider tag:\n\n• Listed creatures have disadvantage on attack rolls against you.\n\n• You can use your Divine Sense feature to detect any listed creatures, not just Celestials, Fiends, and Undead.\n\n• You can’t be charmed, frightened, or possessed by listed creatures."
+  },
+  {
+    "id": "devotion-holy-nimbus",
+    "name": "Holy Nimbus",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "devotion",
+    "level": 15,
+    "description": "As an action, you can emanate a nimbus of sunlight. For 1 minute, bright light shines from you in a 30-foot radius, and dim light shines 30 feet beyond that. This light counts as true sunlight, such as when interacting with Sunlight Hypersensitivity, and it banishes areas of magical darkness created by the darkness spell or similar magic.\nWhen an enemy creature starts its turn in the bright light, it takes radiant damage equal to your paladin level. In addition, for the duration, you have advantage on saves.\nOnce you use this feature, you can’t use it again until you finish a long rest."
+  },
+  {
+    "id": "hunter-hunter-calling-spells",
+    "name": "Hunter Calling Spells",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "hunter",
+    "level": 3,
+    "description": "You gain calling spells at the ranger levels listed in the Hunter Calling Spells table. See the Ranger Subclass class feature for how these spells work."
+  },
+  {
+    "id": "hunter-killer-instinct",
+    "name": "Killer Instinct",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "hunter",
+    "level": 3,
+    "description": "As a bonus action, choose a creature within 60 feet of you that you can see. You immediately learn the creature’s immunities, resistances, and vulnerabilities, or you learn if it has none. This feature doesn’t function if the target is magically concealed by a nondetection spell or similar effect that counters divination magic.\nYou can use this feature a number of times equal to your PB and regain all uses of it when you finish a long rest."
+  },
+  {
+    "id": "hunter-relentless-pursuit",
+    "name": "Relentless Pursuit",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "hunter",
+    "level": 3,
+    "description": "Your tenacity wears down even potent foes. When you hit a creature with a weapon attack, you deal extra damage if the target is below its hit point maximum. The extra damage is equal to the amount your Mystic Mark feature deals at your level and is of the same damage type as the weapon. You can deal this extra damage only once per turn."
+  },
+  {
+    "id": "hunter-favored-foe",
+    "name": "Favored Foe",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "hunter",
+    "level": 7,
+    "description": "As part of a long rest, you can spend time reviewing your research and preparing to face a specific type of monster.\nChoose a type of enemy: Aberration, Beast, Celestial, Construct, Dragon, Elemental, Fey, Fiend, Giant, Monstrosity, Ooze, Plant, or Undead. For 24 hours, creatures of that type have disadvantage on attack rolls against you. You also have advantage on saves against being charmed, frightened, or possessed by them.\nAt the end of your next long rest, you can choose the same type of creature or a different creature type as your Favored Foe."
+  },
+  {
+    "id": "hunter-no-escape",
+    "name": "No Escape",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "hunter",
+    "level": 11,
+    "description": "When a creature marked by your mystic mark attempts to move, you can use your reaction to magically teleport up to 30 feet. If you teleport to a space within your weapon’s reach of the target, you can immediately make an opportunity attack as part of the same reaction."
+  },
+  {
+    "id": "hunter-predators-shield",
+    "name": "Predator’s Shield",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "hunter",
+    "level": 15,
+    "description": "When you take damage from a creature you can see, you can use your reaction to supernaturally ward yourself against that creature for a short time. You have resistance to all damage dealt by the target for 1 minute, including resistance to the damage dealt by the triggering attack. This effect ends early if you become incapacitated.\nOnce used, this feature can’t be used again until you finish a long rest."
+  },
+  {
+    "id": "thief-fast-hands",
+    "name": "Fast Hands",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "thief",
+    "level": 3,
+    "description": "Experience has honed your skills, allowing you to accomplish precision work in a flash. In addition to its standard uses, you can now use the bonus action granted by your Cunning Action feature to do any of the following:\n\n• Make a DEX (Sleight of Hand) check.\n\n• Take the Use an Object action.\n\n• Use thieves’ tools to attempt to disarm a trap or open a lock."
+  },
+  {
+    "id": "thief-second-story-work",
+    "name": "Second-Story Work",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "thief",
+    "level": 3,
+    "description": "You’ve never met a wall you couldn’t conquer, and climbing them is second nature. You gain a climbing speed equal to your walking speed. If you already have a climbing speed when you gain this feature, it increases by 10 feet.\nIn addition, when you make a long jump, you cover a number of feet equal to your walking speed if you move at least 10 feet on foot immediately before the jump. When you make a standing long jump, you can leap half your walking speed. Either way, each foot you clear on the jump costs a foot of movement. In the event a STR (Athletics) check is required to clear or extend a jump, you can choose to make a DEX (Acrobatics) check instead."
+  },
+  {
+    "id": "thief-appraising-eye",
+    "name": "Appraising Eye",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "thief",
+    "level": 7,
+    "description": "You’ve developed an eye for quality. As an action, you can inspect any object within 10 feet of you that you can see to learn whether it is nonmagical or magical. If the object is nonmagical, you immediately learn its approximate value in gold pieces. You also learn whether the object is fake or could conceal other objects inside it (though you don’t learn whether it is currently concealing objects or what those objects are).\nIf the object is magical, you can spend 1 minute examining it to learn its type, rarity, whether it is cursed, and if it requires attunement (and any specific attunement requirements it has). After you have examined a magic item in this way, you learn how to use it and can ignore any class or feature requirements that would normally prevent you from using it (though you still must abide by any level restrictions). If a magic item requires the use of a spellcasting ability, use your DEX to determine your spell save DC or spell attack bonus."
+  },
+  {
+    "id": "thief-trap-specialist",
+    "name": "Trap Specialist",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "thief",
+    "level": 11,
+    "description": "When you or a creature within 5 feet of you triggers a trap, you can use your reaction to roll an ability check to attempt to disarm the trap. If you are successful, the trap is disarmed and not triggered. If you are unsuccessful, the trap is triggered as normal.\nIn addition, you can now disarm any magical traps that would typically require the use of the dispel magic spell. When you do so, make an ability check using only your DEX modifier, without adding any other modifiers to the roll. If the result meets or exceeds the trap’s DC (your GM has this number), it is disarmed as if you had successfully cast the dispel magic spell."
+  },
+  {
+    "id": "thief-thiefs-reflexes",
+    "name": "Thief's Reflexes",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "thief",
+    "level": 15,
+    "description": "You have become adept at laying ambushes and quickly escaping danger. Now, you can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can’t use this feature if you are surprised."
+  },
+  {
+    "id": "draconic-draconic-origin-spells",
+    "name": "Draconic Origin Spells",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "draconic",
+    "level": 3,
+    "description": "You gain origin spells at the sorcerer levels listed in the Dragon Ancestor Damage Type and Spells table. See the Sorcerer Subclass class feature for how these spells work.\nNote that one of the spells you gain at each listed sorcerer level is determined by the type of dragon you select as your ancestor (see Dragon Ancestor)."
+  },
+  {
+    "id": "draconic-draconic-resilience",
+    "name": "Draconic Resilience",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "draconic",
+    "level": 3,
+    "description": "As magic flows through your body, it causes physical traits of your dragon ancestors to emerge. Your hit point maximum increases immediately by 1 and by an additional 1 when you gain a level of sorcerer.\nIn addition, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren’t wearing armor, your AC equals 13 + your DEX modifier."
+  },
+  {
+    "id": "draconic-dragon-ancestor",
+    "name": "Dragon Ancestor",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "draconic",
+    "level": 3,
+    "description": "You begin to manifest traits of the type of dragon that instilled you with power. Choose that dragon’s type now. This choice also dictates some of your spells gained with your Draconic Origin Spells feature, and the damage type associated with each dragon is used by additional features you gain later.\nYou can now speak, read, and write Draconic. In addition, when you make an ability check when interacting with or recalling information about dragons, treat any d20 roll less than your sorcerer level as if you rolled a number equal to your sorcerer level."
+  },
+  {
+    "id": "draconic-elemental-affinity",
+    "name": "Elemental Affinity",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "draconic",
+    "level": 7,
+    "description": "When you cast a spell that deals damage of the type associated with your draconic ancestry (including spells with a damage type modified by features such as your Flexible Spell metamagic option), you can spend 1 sorcery point to gain one of the following benefits:\n\n• Each target takes additional damage equal to your PB.\n\n• You gain resistance to that damage type for 1 minute."
+  },
+  {
+    "id": "draconic-imperious-wings",
+    "name": "Imperious Wings",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "draconic",
+    "level": 11,
+    "description": "You gain the ability to sprout a pair of dragon wings from your back, gaining a fly speed equal to your walking speed. You can create these wings as a bonus action on your turn, and they last until you dismiss them (also as a bonus action on your turn). While the wings are manifested, creatures that can see you have disadvantage on checks and saves to avoid being frightened or intimidated by you.\nYou can’t manifest your wings while wearing armor."
+  },
+  {
+    "id": "draconic-draconian-vengeance",
+    "name": "Draconian Vengeance",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "draconic",
+    "level": 15,
+    "description": "As an action, you can target one creature within 60 feet of you that you can see to brand it with your draconic element. The target must succeed on a CHA save against your spell save DC or become vulnerable to the damage type associated with your draconic ancestry until the end of your next turn. A target resistant to that damage type loses that resistance for the duration, but a target immune to the damage type is still immune to it, even if the target fails the save.\nOnce used, you can't use this feature again until you finish a long rest, unless you spend 4 sorcery points to do so."
+  },
+  {
+    "id": "fiend-dark-ones-blessing",
+    "name": "Dark One’s Blessing",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "fiend",
+    "level": 3,
+    "description": "When you reduce a hostile creature to 0 HP or when a hostile creature within 30 feet of you is reduced to 0 HP, you gain temporary hit points equal to your PB + your warlock level. These hit points last until expended or until you complete a long rest."
+  },
+  {
+    "id": "fiend-fiend-pact-spells",
+    "name": "Fiend Pact Spells",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "fiend",
+    "level": 3,
+    "description": "You gain pact spells at the warlock levels listed in the Fiend Pact Spells table. See the Warlock Subclass class feature for how these spells work."
+  },
+  {
+    "id": "fiend-dark-ones-own-luck",
+    "name": "Dark One’s Own Luck",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "fiend",
+    "level": 7,
+    "description": "You can call on your patron to alter fate in your favor. When you make an ability check or a save, you can use this feature to add 1d10 to your roll.\nOnce you use this feature, you can’t use it again until you finish a short or long rest."
+  },
+  {
+    "id": "fiend-fiendish-resilience",
+    "name": "Fiendish Resilience",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "fiend",
+    "level": 11,
+    "description": "You can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature."
+  },
+  {
+    "id": "fiend-hurl-through-hell",
+    "name": "Hurl Through Hell",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "fiend",
+    "level": 15,
+    "description": "When you hit a creature with an attack, you can use this feature to instantly transport the target, causing it to disappear and hurtle through a nightmare landscape.\nAt the end of your next turn, the target returns to the space it previously occupied or to the nearest unoccupied space.\nIf the target is not a Fiend, it takes 10d10 psychic damage as it reels from its horrific experience.\nOnce you use this feature, you can’t use it again until you finish a long rest."
+  },
+  {
+    "id": "battle-mage-spell-ward",
+    "name": "Spell Ward",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "battle-mage",
+    "level": 3,
+    "description": "You can redirect a portion of your spellcasting energy into a defensive shield. When you cast an Arcane spell of 1st circle or higher, you can simultaneously weave a protective ward around yourself.\nWhile the ward is active, you gain the following benefits if you aren’t wearing medium or heavy armor:\n\n• You gain a bonus to your armor class (AC) equal to your PB.\n\n• You have resistance to bludgeoning, piercing, and slashing damage.\n\nThe ward lasts for 1 minute, but ends early if you are knocked unconscious or if your turn ends and you haven’t cast an Arcane spell of 1st circle or higher since your last turn. You can also choose to dismiss your ward at any time (no action required by you).\nYou can use this feature a number of times equal to your PB, and you regain all uses of it when you finish a long rest."
+  },
+  {
+    "id": "battle-mage-tactical-caster",
+    "name": "Tactical Caster",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "battle-mage",
+    "level": 3,
+    "description": "When you cast an Arcane spell that causes damage, you can choose yourself and any number of allies you can see to be immune to the damage caused by the spell. You can use this feature a number of times equal to your PB, and you regain all uses of it when you finish a long rest."
+  },
+  {
+    "id": "battle-mage-contingency-plan",
+    "name": "Contingency Plan",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "battle-mage",
+    "level": 7,
+    "description": "When you fail to hit a creature with a spell attack, you can use your reaction to redirect the spell toward a different target within the spell’s range. You must make a new spell attack roll for the new target. If you miss the new target, you can’t redirect again with the same spell attack."
+  },
+  {
+    "id": "battle-mage-blasting-power",
+    "name": "Blasting Power",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "battle-mage",
+    "level": 11,
+    "description": "When you deal damage with an Arcane spell, you can reroll any 1s you roll on any number of the damage dice. You must take the new result for any dice rerolled in this way (even if the new result is also a 1)."
+  },
+  {
+    "id": "battle-mage-counterstrike",
+    "name": "Counterstrike",
+    "source": "open",
+    "kind": "subclass",
+    "parentId": "battle-mage",
+    "level": 15,
+    "description": "When a creature succeeds on a save against an Arcane spell you cast and would take no damage or otherwise suffer no effects from the spell, it instead takes force damage equal to a number of d6 dice equal to the spell’s circle + your INT modifier. For example, if you have an INT modifier of +4 and a creature succeeds and takes no damage from your 4th-circle spell, the creature still takes 4d6 + 4 force damage."
+  },
+  {
+    "id": "barbarian-rage",
+    "name": "Rage",
+    "source": "open",
+    "kind": "class",
+    "parentId": "barbarian",
+    "level": 1,
+    "description": "In battle, you fight with primal ferocity. On your turn, you can rage as a bonus action.\nWhile raging, you gain the following benefits if you aren’t wearing heavy armor:\n\n• You have advantage on STR ability checks and saves.\n\n• When you make a melee weapon attack using STR, you gain a bonus to the damage roll, which increases as you gain levels as a barbarian (as shown in the Rage Damage column of the Barbarian Progression table). The damage type of this extra damage matches that of the weapon used to deal it.\n\n• You have resistance to bludgeoning, piercing, and slashing damage.\n\nIf you can cast spells, you can’t cast them or concentrate on them while raging.\nYour rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven’t attacked a hostile creature or taken damage from a hostile creature since the start of your last turn. You can also end your rage early with a bonus action on your turn.\nYou can rage a number of times equal to the number listed in the Barbarian Progression table. You regain all expended uses of Rage when you finish a long rest."
+  },
+  {
+    "id": "barbarian-unarmored-defense",
+    "name": "Unarmored Defense",
+    "source": "open",
+    "kind": "class",
+    "parentId": "barbarian",
+    "level": 1,
+    "description": "While you aren't wearing any armor, your AC equals 13 + your CON modifier. (DEX doesn't factor into your AC for this class feature.) You can use a shield and still gain this benefit."
+  },
+  {
+    "id": "barbarian-danger-sense",
+    "name": "Danger Sense",
+    "source": "open",
+    "kind": "class",
+    "parentId": "barbarian",
+    "level": 2,
+    "description": "You gain an uncanny sense of impending danger, giving you an edge when avoiding harm. You have advantage on DEX saves while you aren't blinded, deafened, or incapacitated."
+  },
+  {
+    "id": "barbarian-reckless-attack",
+    "name": "Reckless Attack",
+    "source": "open",
+    "kind": "class",
+    "parentId": "barbarian",
+    "level": 2,
+    "description": "You can throw aside concern for defense in favor of ferocious attack. When you make an attack on your turn, you can decide to do it recklessly. Doing so gives you advantage on melee weapon attack rolls using STR during this turn, but attack rolls against you have advantage until the start of your next turn."
+  },
+  {
+    "id": "barbarian-fast-movement",
+    "name": "Fast Movement",
+    "source": "open",
+    "kind": "class",
+    "parentId": "barbarian",
+    "level": 5,
+    "description": "Your speed increases by 10 feet while you aren’t wearing heavy armor. In addition, when you roll initiative, you can immediately move up to half your speed."
+  },
+  {
+    "id": "barbarian-multiattack",
+    "name": "Multiattack",
+    "source": "open",
+    "kind": "class",
+    "parentId": "barbarian",
+    "level": 5,
+    "description": "Your physical prowess has grown. On your turn, you can make two attacks when you take the Attack action."
+  },
+  {
+    "id": "barbarian-feral-instinct",
+    "name": "Feral Instinct",
+    "source": "open",
+    "kind": "class",
+    "parentId": "barbarian",
+    "level": 6,
+    "description": "Your honed instincts give you advantage on initiative rolls. In addition, if you are surprised at the beginning of combat and aren’t incapacitated, you can act normally on your first turn, if you enter a rage before doing anything else on that turn."
+  },
+  {
+    "id": "barbarian-brutal-critical",
+    "name": "Brutal Critical",
+    "source": "open",
+    "kind": "class",
+    "parentId": "barbarian",
+    "level": 9,
+    "description": "You score a critical hit on a d20 roll of 19 or 20 with melee weapons and unarmed strikes. You also roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.\nThis extra damage increases to two additional dice at 13th level and three additional dice at 17th level."
+  },
+  {
+    "id": "barbarian-heroic-boon",
+    "name": "Heroic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "barbarian",
+    "level": 10,
+    "description": "Your commitment to the barbarian’s path grants you a powerful ability. Choose one of the following heroic boons:"
+  },
+  {
+    "id": "barbarian-relentless-rage",
+    "name": "Relentless Rage",
+    "source": "open",
+    "kind": "class",
+    "parentId": "barbarian",
+    "level": 14,
+    "description": "Your rage lets you shrug off even lethal wounds. While raging, if you are reduced to 0 hit points, you can make a save. On a success, you don't fall unconscious until your current rage ends. You still make death saves and can be killed outright if you take damage from a single source equal to your hit point maximum. Even if you fail three death saves during your rage, you only die if you end your turn with 0 hit points.\nEach time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10."
+  },
+  {
+    "id": "barbarian-unyielding-might",
+    "name": "Unyielding Might",
+    "source": "open",
+    "kind": "class",
+    "parentId": "barbarian",
+    "level": 18,
+    "description": "You have perfected the application of might and mettle. You gain the following benefits:\n\n• When you make an ability check or save using STR or CON, treat any d20 roll of 9 or lower as a 10.\n\n• Your melee weapon attacks deal additional damage, equal to your STR score, to objects and structures."
+  },
+  {
+    "id": "barbarian-epic-boon",
+    "name": "Epic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "barbarian",
+    "level": 20,
+    "description": "Your commitment to the barbarian’s path grants you a powerful new ability. You gain the following epic boon:"
+  },
+  {
+    "id": "bard-spellcasting",
+    "name": "Spellcasting",
+    "source": "open",
+    "kind": "class",
+    "parentId": "bard",
+    "level": 1,
+    "description": "As a conduit for arcane power, you can cast Arcane spells.\nCantrips\nAt 1st level, choose three cantrips from the Arcane spell list to learn. You choose more Arcane cantrips to learn at higher levels, as shown in the Cantrips Known column of the Bard Progression table.\nCasting Spells\nYou know several spells and can cast any of them by using an Arcane spell slot of the spell’s circle or higher. You don't need to prepare spells ahead of time.\nThe Bard Progression table shows how many spells you know and how many Arcane spell slots you have at a given level. For example, at 3rd level, you have four 1st-circle slots and two 2nd-circle slots. If you know the 1st-circle spell magic missile and have a 1st-circle and a 2nd-circle spell slot available, you can cast magic missile using either slot. If you use a 1st-circle slot, you have three 1st-circle slots remaining.\nYou regain all used spell slots when you finish a long rest.\nSpells Known of 1st Circle and Higher\nAt 1st level, choose four 1st-circle spells that you know. Three of these spells must be from the Arcane spell list, but the fourth can be from any source spell list. Regardless of its source, it is an Arcane spell for you.\nThe Spells Known column of the Bard Progression table shows when you learn additional Arcane spells. Each spell you choose must be from a circle for which you have Arcane spell slots. For instance, when you reach 3rd level as a bard, you can learn one new Arcane spell of 1st or 2nd circle. The Magical Secrets feature also lets you learn spells from other sources at certain levels.\nIn addition, when you gain a level of bard, you can choose one Arcane spell you know and replace it with another spell of your choice from the Arcane spell list. The replacement spell must be of a circle for which you have Arcane spell slots.\nSpellcasting Ability\nCharisma (CHA) is your spellcasting ability. Your CHA modifier determines the save DC or the attack modifier for certain spells you cast:\nSpell save DC = 8 + your proficiency bonus (PB) + your CHA modifier\nSpell attack modifier = your proficiency bonus (PB) + your CHA modifier\nRituals\nYou can also cast a type of long-form spell called a ritual. Rituals don’t count against your known spell total, and they don’t use up spell slots.\nAt 1st level, choose one ritual from any spell list—Arcane, Divine, Primordial, or Wyrd. Regardless of its source, it becomes an Arcane spell for you. You choose more rituals to learn at higher levels, as shown in the Rituals Known column of the Bard Progression table, but only from a circle for which you have spell slots. Rituals you learn don't count against the number of spells you learn at each level.\nSpellcasting Focus\nYou can use a musical instrument or an arcane focus as a spellcasting focus for your Arcane spells. At your GM’s discretion, you can use a suitable tool or object from a different tool kit you are proficient with as a spellcasting focus instead."
+  },
+  {
+    "id": "bard-bardic-inspiration",
+    "name": "Bardic Inspiration",
+    "source": "open",
+    "kind": "class",
+    "parentId": "bard",
+    "level": 1,
+    "description": "You can inspire others through stirring words, music, or other kinds of performance. As a bonus action on your turn, you can choose a creature within 60 feet of you, other than yourself, who can hear or see you. That creature gains one Bardic Inspiration die, a d6.\nOnce within the next 10 minutes, the creature can roll that die and add the number rolled to one ability check, attack roll, or save that it makes. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.\nYou can use this feature a number of times equal to your CHA modifier. You regain any expended uses when you finish a long rest.\nYour Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, d10 at 9th, and d12 at 14th."
+  },
+  {
+    "id": "bard-expertise",
+    "name": "Expertise",
+    "source": "open",
+    "kind": "class",
+    "parentId": "bard",
+    "level": 2,
+    "description": "Choose two of your skill proficiencies, or one skill proficiency and one tool proficiency. Double your PB for any ability check you make that uses either of the chosen proficiencies.\nAt 6th level, you can choose two more of your proficiencies (any combination of skills or tools) to gain this benefit."
+  },
+  {
+    "id": "bard-bardic-performance",
+    "name": "Bardic Performance",
+    "source": "open",
+    "kind": "class",
+    "parentId": "bard",
+    "level": 2,
+    "description": "You weave magic into ongoing performances to produce effects beyond spells. You start with two effects: Celebrate Life and Cutting Words. You gain a new effect at 6th level, and some bard subclasses grant additional effects. Unless stated otherwise, targets must be within 30 feet of you and be able to hear or see you (depending on the type of performance) to be affected.\nAs an action, you can use your Bardic Performance feature, choosing which performance effect you create when you do so. Once active, you can continue the performance for up to 1 minute, as long as you spend a bonus action at the start of each of your subsequent turns to maintain it. You can also choose to use your Bardic Inspiration feature as part of the same bonus action required to maintain this performance.\nYour performance ends early if you become incapacitated, silenced, use an action to begin a new performance, or choose to end the effect (no action required by you to do so).\nYou can use your Bardic Performance feature to start a new performance a number of times equal to your PB, regaining all expended uses when you finish a long rest.\nBardic Performance: Celebrate Life\n\nBardic Performance: Cutting Words\n\nBardic Performance: Clarity of Thought"
+  },
+  {
+    "id": "bard-font-of-inspiration",
+    "name": "Font of Inspiration",
+    "source": "open",
+    "kind": "class",
+    "parentId": "bard",
+    "level": 5,
+    "description": "You now regain all expended uses of your Bardic Inspiration feature when you finish a short or long rest.\nIn addition, you can now use your Bardic Inspiration dice in a new way. When a creature within 60 feet of you that you can hear or see you fails an ability check, attack roll, or save, you can use your reaction to expend a use of your Bardic Inspiration feature. When you do, roll the Bardic Inspiration die and add the number rolled to the target’s check total—potentially turning a failure into a success."
+  },
+  {
+    "id": "bard-magical-secrets",
+    "name": "Magical Secrets",
+    "source": "open",
+    "kind": "class",
+    "parentId": "bard",
+    "level": 9,
+    "description": "You’ve picked up magical knowledge from just about everywhere. Choose two spells (or cantrips) from any spell list. A spell you choose must be of a circle you can cast with your spell slots, as shown on the Bard Progression table.\nThe chosen spells count as Arcane spells for you and are already included in the number in the Spells Known column at these levels on the Bard Progression table.\nYou learn two additional spells from any source at 13th level and again at 18th level."
+  },
+  {
+    "id": "bard-heroic-boon",
+    "name": "Heroic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "bard",
+    "level": 10,
+    "description": "Your commitment to the bard’s path grants you a powerful new ability. Choose one of the following heroic boons:"
+  },
+  {
+    "id": "bard-grand-performance",
+    "name": "Grand Performance",
+    "source": "open",
+    "kind": "class",
+    "parentId": "bard",
+    "level": 17,
+    "description": "Your Bardic Performance feature now affects creatures within 60 feet of you that can hear or see you."
+  },
+  {
+    "id": "bard-epic-boon",
+    "name": "Epic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "bard",
+    "level": 20,
+    "description": "Your commitment to the cleric’s path grants you a powerful new ability. You gain the following epic boon:"
+  },
+  {
+    "id": "cleric-spellcasting",
+    "name": "Spellcasting",
+    "source": "open",
+    "kind": "class",
+    "parentId": "cleric",
+    "level": 1,
+    "description": "As a conduit for divine power, you can cast Divine spells.\nCantrips\nAt 1st level, choose three cantrips from the Divine spell list to learn. You choose more Divine cantrips to learn at higher levels, as shown in the Cantrips Known column of the Cleric Progression table.\nPreparing Spells\nYou must prepare spells in advance before you can cast them. You can prepare any spell on the Divine spell list from circles for which you have Divine spell slots. (You determine which spell slots you can access by checking your level on the Cleric Progression table). You can choose a number of spells equal to your WIS modifier + your cleric level (minimum of one spell). This is your list of prepared spells from which you can cast.\nPreparing a new list of spells requires time spent in prayer and meditation: at least 1 minute per spell circle for each spell you change. You can change your list of prepared spells as part of a long rest.\nCasting Spells\nYou have prepared a number of spells and can cast any of them by using a Divine spell slot of the spell’s circle or higher.\nThe Cleric Progression table shows how many Divine spell slots you have at a given level. For example, at 3rd level, you have four 1st-circle and two 2nd-circle spell slots, and with a 16 WIS, you can have six prepared spells of 1st or 2nd circle, in any combination. You only have two spell slots for 2nd-circle spells though, so if you prepare only 2nd-circle spells, you won’t be able to use your 1st-circle spell slots at all.\nCasting a spell doesn’t remove it from your list of prepared spells, it just uses up a spell slot. You regain all used spell slots when you finish a long rest.\nSpellcasting Ability\nWisdom (WIS) is your spellcasting ability. Your WIS modifier determines the save DC and the attack modifier for certain spells you cast:\nSpell save DC = 8 + your proficiency bonus (PB) + your WIS modifier\nSpell attack modifier = your proficiency bonus (PB) + your WIS modifier\nRitual Casting\nYou can also cast a type of long-form spell called a ritual. Rituals don’t need to be prepared, and they don’t use up spell slots.\nAt 1st level, choose one ritual from the Divine ritual list. You learn more rituals at higher levels, as shown in the Rituals Known column of the Cleric Progression table, but only from a circle for which you have spell slots. Rituals you learn don't count against the number of spells you learn at each level.\nSpellcasting Focus\nYou can use a holy symbol as a spellcasting focus for your Divine spells."
+  },
+  {
+    "id": "cleric-manifestation-of-faith",
+    "name": "Manifestation of Faith",
+    "source": "open",
+    "kind": "class",
+    "parentId": "cleric",
+    "level": 1,
+    "description": "Clerics demonstrate their faith in one of two primary ways, wielding it as a holy warrior or calling it as a miracle worker. Choose how you manifest your faith with one of the following."
+  },
+  {
+    "id": "cleric-channel-divinity",
+    "name": "Channel Divinity",
+    "source": "open",
+    "kind": "class",
+    "parentId": "cleric",
+    "level": 2,
+    "description": "You gain the ability to channel divine energy directly from your deity to produce effects beyond spells. You start with one effect: Turn the Profane. Some subclasses grant additional effects as you advance in levels, as noted in their descriptions.\nWhen you use your Channel Divinity feature, choose which specific effect you want, such as Turn the Profane. Some of these effects require a save, and in those cases, the DC is equal to your cleric spell save DC.\nBeginning at 2nd level, you can use your Channel Divinity feature once until you finish a short or long rest, then twice between rests at 6th level, three times at 13th level, and four times at 18th level. When you finish a short or long rest, you regain all expended uses."
+  },
+  {
+    "id": "cleric-destroy-the-profane",
+    "name": "Destroy the Profane",
+    "source": "open",
+    "kind": "class",
+    "parentId": "cleric",
+    "level": 5,
+    "description": "When a Fiend or Undead fails its save against your Turn the Profane feature, it is instantly destroyed if its challenge rating (CR) is at or below a certain threshold, as shown in the Destroy the Profane table."
+  },
+  {
+    "id": "cleric-divine-intervention",
+    "name": "Divine Intervention",
+    "source": "open",
+    "kind": "class",
+    "parentId": "cleric",
+    "level": 9,
+    "description": "You can call on your deity to intervene on your behalf when your need is great. At the start of your turn, you can request aid from your deity by rolling a d20 and adding your PB. If the result is 19 or lower, your request fails, and your deity doesn't intervene. If the result is 20 or higher, your deity intervenes on your behalf, imbuing you with a fraction of their power.\nIf your deity intervenes, you can immediately use your action to cast any spell with a casting time of 1 action from the Divine spell list or your domain spell list, regardless of preparation rules. Casting a spell in this way doesn't expend a spell slot and doesn’t require material components. If the spell is of a higher circle than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC for this check equals 10 + the spell’s circle. On a failed check, the spell fails, your deity’s power fades, and your action is lost.\nAlternatively, on a successful intervention, your GM can propose the form of the intervention. Anything that replicates the effects of a Divine spell is appropriate. In this instance, you still use your action but don’t cast a spell. You have final say on allowing the GM to pursue this option or choosing your own spell.\nIf your deity intervenes, you can’t use this feature again for 1 week. Otherwise, you can use it again after you finish a long rest."
+  },
+  {
+    "id": "cleric-heroic-boon",
+    "name": "Heroic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "cleric",
+    "level": 10,
+    "description": "Your commitment to the cleric’s path grants you a powerful new ability. Choose one of the following heroic boons:"
+  },
+  {
+    "id": "cleric-epic-boon",
+    "name": "Epic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "cleric",
+    "level": 20,
+    "description": "Your commitment to the cleric’s path grants you a powerful new ability. You gain the following epic boon:"
+  },
+  {
+    "id": "druid-spellcasting",
+    "name": "Spellcasting",
+    "source": "open",
+    "kind": "class",
+    "parentId": "druid",
+    "level": 1,
+    "description": "As a conduit for primordial power, you can cast Primordial spells.\nCantrips\nAt 1st level, choose three cantrips from the Primordial spell list to learn. You choose more Primordial cantrips to learn at higher levels, as shown in the Cantrips Known column of the Druid Progression table.\nPreparing Spells\nYou must prepare spells in advance before you can cast them. You can prepare any spell on the Primordial spell list from circles for which you have Primordial spell slots. (You determine which spell slots you can access by checking your level on the Druid Progression table). You can choose a number of spells equal to your WIS modifier + your druid level (minimum of one spell). This is your list of prepared spells from which you can cast.\nPreparing a new list of spells requires time spent in prayer and meditation: at least 1 minute per spell circle for each spell you change. You can change your list of prepared spells as part of a long rest.\nCasting Spells\nYou have prepared a number of spells and can cast any of them by using a Primordial spell slot of the spell’s circle or higher.\nThe Druid Progression table shows how many Primordial spell slots you have per day at a given level. For example, at 3rd level, you have four 1st-circle and two 2nd-circle spell slots, and with a 16 WIS, you can have six prepared spells of 1st or 2nd circle, in any combination. You only have two spell slots for 2nd-circle spells though, so if you prepare only 2nd-circle spells, you won’t be able to use your 1st-circle spell slots at all.\nCasting a spell doesn’t remove it from your list of prepared spells, it just uses up a spell slot. You regain all used spell slots when you finish a long rest.\nSpellcasting Ability\nWisdom (WIS) is your spellcasting ability. Your WIS modifier determines the save DC or the attack modifier for certain spells you cast:\nSpell save DC = 8 + your proficiency bonus (PB) + your WIS modifier\nSpell attack modifier = your proficiency bonus (PB) + your WIS modifier\nRituals\nYou can also cast a type of long-form spell called a ritual. Rituals don’t need to be prepared, and they don’t use up spell slots.\nAt 1st level, choose one ritual from the Primordial ritual list. You learn more rituals at higher levels, as shown in the Rituals Known column of the Druid Progression table, but only from a circle for which you have spell slots. Rituals you learn don't count against the number of spells you learn at each level.\nSpellcasting Focus\nYou can use a druidic focus as a spellcasting focus for your Primordial spells."
+  },
+  {
+    "id": "druid-druidic",
+    "name": "Druidic",
+    "source": "open",
+    "kind": "class",
+    "parentId": "druid",
+    "level": 1,
+    "description": "You know Druidic, the secret language of druids. You can speak the language and use a system of natural elements to leave hidden messages that only other druids will understand. You and others who know this language automatically spot such a message. Others spot the message’s presence with a successful WIS (Perception) check but can’t decipher it without magic."
+  },
+  {
+    "id": "druid-natures-gift",
+    "name": "Nature's Gift",
+    "source": "open",
+    "kind": "class",
+    "parentId": "druid",
+    "level": 1,
+    "description": "You have learned to harness the ambient energy of nature and can redirect that energy to encourage growth and healing. As a bonus action, choose one creature within 5 feet of you (this can be you). When you do so, roll a number of d4s equal to your PB (minimum of 2d4). That creature regains hit points equal to the total rolled. This feature has no effect on Constructs or Undead.\nYou can use this feature a number of times per day equal to your PB. You recover expended uses when you complete a long rest."
+  },
+  {
+    "id": "druid-wild-shape",
+    "name": "Wild Shape",
+    "source": "open",
+    "kind": "class",
+    "parentId": "druid",
+    "level": 2,
+    "description": "You gain the ability to channel energy directly from nature to produce effects beyond spells. You start with two effects: Beast Form and Draw Power. Some subclasses grant additional effects as you advance in levels, as noted in their descriptions.\nWhen you use your Wild Shape feature, simply choose which specific effect you want, such as Beast Form. Some of these effects require a save, and in those cases, the DC is equal to your druid spell save DC.\nBeginning at 2nd level, you can use your Wild Shape feature once until you finish a short or long rest, then twice between rests at 6th level, three times at 13th level, and four times at 18th level. When you finish a short or long rest, you regain all expended uses.\nWild Shape: Beast Form\n\nWild Shape: Draw Power"
+  },
+  {
+    "id": "druid-improved-beast-form",
+    "name": "Improved Beast Form",
+    "source": "open",
+    "kind": "class",
+    "parentId": "druid",
+    "level": 5,
+    "description": "You can now use the Beast Form effect of your Wild Shape feature to assume more powerful beast forms. When you learn a new form, you can choose a Beast of CR 1/2 or less.\nAt 9th level, you can assume the form of any Beast of CR 1 or less. At 14th level, you can assume the form of any Beast of CR 2 or less."
+  },
+  {
+    "id": "druid-heroic-boon",
+    "name": "Heroic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "druid",
+    "level": 10,
+    "description": "Your commitment to the druid’s path grants you a powerful new ability. Choose one of the following heroic boons:"
+  },
+  {
+    "id": "druid-natures-grace",
+    "name": "Nature’s Grace",
+    "source": "open",
+    "kind": "class",
+    "parentId": "druid",
+    "level": 17,
+    "description": "Your attunement to the natural energies of the world infuses your body, sustaining you and protecting you from unnatural harm. You gain the following benefits:\n\n• You can’t be magically aged, and you suffer none of the frailty of old age. You can still die of old age though.\n\n• You no longer need food or water to survive.\n\n• Your ability scores and hit point maximum can’t be lowered by any means short of a wish spell."
+  },
+  {
+    "id": "druid-epic-boon",
+    "name": "Epic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "druid",
+    "level": 20,
+    "description": "Your commitment to the druid’s path grants you a powerful new ability. You gain the following epic boon:"
+  },
+  {
+    "id": "fighter-last-stand",
+    "name": "Last Stand",
+    "source": "open",
+    "kind": "class",
+    "parentId": "fighter",
+    "level": 1,
+    "description": "When you take damage that would reduce your hit points to less than half your hit point maximum (rounded down), you can use your reaction to spend hit dice, up to a number equal to your PB. Immediately roll those hit dice. You regain hit points equal to the sum of all dice rolled + your CON modifier."
+  },
+  {
+    "id": "fighter-martial-action",
+    "name": "Martial Action",
+    "source": "open",
+    "kind": "class",
+    "parentId": "fighter",
+    "level": 1,
+    "description": "Your tactical expertise allows you to act quickly on the battlefield. You can take a bonus action on each of your turns in combat to perform a weapon option or one of the martial actions granted by this feature.\nChoose one of the following martial actions that you know."
+  },
+  {
+    "id": "fighter-action-surge",
+    "name": "Action Surge",
+    "source": "open",
+    "kind": "class",
+    "parentId": "fighter",
+    "level": 2,
+    "description": "When the need is great, you push your body to its absolute limit. On your turn, you can activate this feature to gain another action—in addition to the action and possible bonus action you regularly get on your turn.\nOnce you use this feature, you must complete a short or long rest before you can use it again. Starting at 13th level, you can use it twice before a rest but only once on the same turn. At 18th level, you can use it three times before a rest but only once on the same turn."
+  },
+  {
+    "id": "fighter-multiattack",
+    "name": "Multiattack",
+    "source": "open",
+    "kind": "class",
+    "parentId": "fighter",
+    "level": 5,
+    "description": "Your physical prowess has grown. On your turn, you can make two attacks when you take the Attack action.\nStarting at 9th level, you can make three attacks when you take the Attack action. At 17th level, you can make four."
+  },
+  {
+    "id": "fighter-heroic-boon",
+    "name": "Heroic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "fighter",
+    "level": 10,
+    "description": "Your commitment to the fighter’s path grants you a powerful new ability. Choose one of the following heroic boons:"
+  },
+  {
+    "id": "fighter-epic-boon",
+    "name": "Epic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "fighter",
+    "level": 20,
+    "description": "Your commitment to the fighter’s path grants you a powerful new ability. You gain the following epic boon:"
+  },
+  {
+    "id": "mechanist-eyes-of-the-maker",
+    "name": "Eyes of the Maker",
+    "source": "open",
+    "kind": "class",
+    "parentId": "mechanist",
+    "level": 1,
+    "description": "When you touch a magic item or some other magic-imbued object, you learn its properties and how to use it, whether it requires attunement to use, and how many charges it has (if any). You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it."
+  },
+  {
+    "id": "mechanist-shard-of-creation",
+    "name": "Shard of Creation",
+    "source": "open",
+    "kind": "class",
+    "parentId": "mechanist",
+    "level": 1,
+    "description": "You learn how to craft a shard of creation, which is a Tiny magical object with many uses that appears on your person. In its base state, the shard appears as a constantly shifting, fluid-like bundle of plasma.\nThe shard vanishes instantly if you are slain or if it is not in your possession for more than 24 consecutive hours. If the shard is destroyed or you lose it, you can perform a 1-hour ritual to create a replacement. This ritual can be performed as part of a short or long rest.\nThe shard has a number of charges equal to your INT modifier (minimum of 1), and you regain all expended charges when you finish a long rest. Charges can be spent to activate the following properties.\nInspire\n\nTransform"
+  },
+  {
+    "id": "mechanist-augment",
+    "name": "Augment",
+    "source": "open",
+    "kind": "class",
+    "parentId": "mechanist",
+    "level": 2,
+    "description": "You gain the ability to channel magical energy into items. To use this ability, you must spend 1 hour focusing on the item that you wish to augment while remaining in physical contact with it (which can be done as part of a short or long rest).\nYou gain two augment effects of your choice. Augment effect options are detailed at the end of the class description. At certain mechanist levels, you gain additional augment effects of your choice, as shown in the Augment Effects Known column of the Mechanist Progression table.\nWhen you use this ability, choose an effect from those you know. Regardless of the effect, an augmented item is considered a magic item while the effect remains active. You can apply these effects to existing magic items, and any bonuses or features granted by an augment effect stack with any properties a magic item already possesses.\nUnless specified otherwise, a chosen effect lasts indefinitely, but as an action, you can touch an item to end an ongoing effect that you created. You can have effects active on multiple items, provided you spend the required time focusing on each item individually. However, an item can only bear one effect at a time. Multiple uses of the same effect don’t stack.\nThe maximum number of items you can affect with this feature at one time is listed in the Augmented Items column of the Mechanist Progression table. If you try to exceed your maximum, you must choose an ongoing effect to end.\nYou can also augment your transformed shard of creation, provided its form meets the requirements for the chosen effect. The effect remains with the shard when it transforms as long as the new form remains compatible—if not, the effect immediately ends."
+  },
+  {
+    "id": "mechanist-efficient-action",
+    "name": "Efficient Action",
+    "source": "open",
+    "kind": "class",
+    "parentId": "mechanist",
+    "level": 2,
+    "description": "Your mechanical expertise allows you to use items more efficiently in the chaos of battle. You can use a bonus action to take the Use an Object action or to perform a weapon option."
+  },
+  {
+    "id": "mechanist-multiattack",
+    "name": "Multiattack",
+    "source": "open",
+    "kind": "class",
+    "parentId": "mechanist",
+    "level": 5,
+    "description": "Your physical prowess has grown. On your turn, you can make two attacks when you take the Attack action."
+  },
+  {
+    "id": "mechanist-rapid-augment",
+    "name": "Rapid Augment",
+    "source": "open",
+    "kind": "class",
+    "parentId": "mechanist",
+    "level": 6,
+    "description": "You can now use your Augment feature more rapidly. As a bonus action, you can touch an item and imbue it with a known augment effect of your choice. You remain bound by all other restrictions of the Augment feature, including number of items.\nYou can use your Rapid Augment feature a number of times equal to your INT modifier and regain all expended uses when you finish a long rest."
+  },
+  {
+    "id": "mechanist-greater-creation",
+    "name": "Greater Creation",
+    "source": "open",
+    "kind": "class",
+    "parentId": "mechanist",
+    "level": 9,
+    "description": "Your growing insight into the nature of reality allows you greater control over your Shard of Creation feature. You receive the following enhancements to its given properties.\nInspire\nYour bonus to ability checks is now 1d8 (instead of 1d6).\nTransform\nYou can now transform the shard into any Large or smaller tool or nonmagical object. All other restrictions still apply, including the limit on the gold piece value."
+  },
+  {
+    "id": "mechanist-engineers-insight",
+    "name": "Engineer’s Insight",
+    "source": "open",
+    "kind": "class",
+    "parentId": "mechanist",
+    "level": 13,
+    "description": "As long as you have at least 1 minute of uninterrupted focus on a task, when you make an ability check, treat any d20 roll of 9 or lower as though you rolled a 10.\nNormal activity like moving doesn’t interrupt focus, but attacking, taking damage, or participating in anything that requires initiative order does interrupt focus."
+  },
+  {
+    "id": "mechanist-ranged-augment",
+    "name": "Ranged Augment",
+    "source": "open",
+    "kind": "class",
+    "parentId": "mechanist",
+    "level": 14,
+    "description": "You can now use your Rapid Augment feature on items you can see within 60 feet of you. (You no longer need to touch them.)\nIn addition, if an effect from your Augment feature would typically require you to touch the item to activate its properties, you no longer need to do so as long as the item is within 60 feet of you. You don’t need to see the item to activate its properties in this way."
+  },
+  {
+    "id": "mechanist-always-prepared",
+    "name": "Always Prepared",
+    "source": "open",
+    "kind": "class",
+    "parentId": "mechanist",
+    "level": 17,
+    "description": "When you would take damage from an attack, you can use a reaction to take the Use an Object action."
+  },
+  {
+    "id": "mechanist-epic-boon",
+    "name": "Epic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "mechanist",
+    "level": 20,
+    "description": "Your commitment to the mechanist’s path grants you a powerful new ability. You gain the following epic boon:"
+  },
+  {
+    "id": "mechanist-heroic-boon",
+    "name": "Heroic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "mechanist",
+    "level": 10,
+    "description": "Your commitment to the mechanist’s path grants you a powerful new ability. Choose one of the following heroic boons:"
+  },
+  {
+    "id": "mechanist-perfect-creation",
+    "name": "Perfect Creation",
+    "source": "open",
+    "kind": "class",
+    "parentId": "mechanist",
+    "level": 18,
+    "description": "Your growing insight into the nature of reality allows you greater control over your Shard of Creation feature. You receive the following enhancements to its given properties.\nInspire\nYour bonus to ability checks is now 1d10 (instead of 1d8).\nTransform\nYou can now transform the shard into any item—including structures and vehicles—of Huge size or smaller. You are no longer bound by any cost restrictions when choosing a form."
+  },
+  {
+    "id": "monk-martial-arts",
+    "name": "Martial Arts",
+    "source": "open",
+    "kind": "class",
+    "parentId": "monk",
+    "level": 1,
+    "description": "You have mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don’t have the Two-handed or Heavy property. You gain the following benefits while you are unarmed or wielding only monk weapons and you aren’t wearing armor or wielding a shield:\n\n• You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk Progression table.\n\n• You can use DEX instead of STR for attack and damage rolls of your unarmed strikes and monk weapons.\n\n• When you are hit by a ranged weapon attack, you can use your reaction to reduce the damage you take from the attack by 1d10 + your DEX modifier + your monk level. If you reduce the damage to 0, you can catch the missile or thrown weapon if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can make a ranged attack with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack, with a normal range of 20 feet and a long range of 60 feet.\n\n• When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven’t already taken a bonus action this turn."
+  },
+  {
+    "id": "monk-unarmored-defense",
+    "name": "Unarmored Defense",
+    "source": "open",
+    "kind": "class",
+    "parentId": "monk",
+    "level": 1,
+    "description": "While you are wearing no armor and not wielding a shield, your AC equals 10 + your DEX modifier + your WIS modifier."
+  },
+  {
+    "id": "monk-techniques",
+    "name": "Techniques",
+    "source": "open",
+    "kind": "class",
+    "parentId": "monk",
+    "level": 2,
+    "description": "Your training gives you access to special techniques that allow you to amplify and manipulate the energy within yourself and the environment. Your ability to use this energy is represented by technique points. Your monk level determines the number of points you have, as shown in the Technique Points column of the Monk Progression table.\nYou can spend these points to fuel various techniques. You start knowing three techniques: Flurry of Blows, Patient Defense, and Step of the Wind. You learn more technique features as you gain levels in this class.\nYou recover expended technique points when you finish a short or long rest. You must spend at least 30 minutes of the rest meditating to regain your technique points.\nSome of your techniques require your target to make a save to resist the technique’s effects. The save DC is calculated as follows:\nTechnique save DC = 8 + your proficiency bonus (PB) + your WIS modifier\nFlurry of Blows\n\nPatient Defense\n\nStep of the Wind"
+  },
+  {
+    "id": "monk-unarmored-movement",
+    "name": "Unarmored Movement",
+    "source": "open",
+    "kind": "class",
+    "parentId": "monk",
+    "level": 2,
+    "description": "Your speed increases by 10 feet while you aren’t wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the Monk Progression table."
+  },
+  {
+    "id": "monk-multiattack",
+    "name": "Multiattack",
+    "source": "open",
+    "kind": "class",
+    "parentId": "monk",
+    "level": 5,
+    "description": "Your physical prowess has grown. On your turn, you can make two attacks when you take the Attack action."
+  },
+  {
+    "id": "monk-technique-stunning-strike",
+    "name": "Technique: Stunning Strike",
+    "source": "open",
+    "kind": "class",
+    "parentId": "monk",
+    "level": 5,
+    "description": "You can interfere with the flow of energy in an opponent’s body. Once per turn, when you successfully hit another creature with an unarmed strike or monk weapon, you can spend 1 technique point to attempt to stun your foe. When you do so, the target takes damage from your attack as normal and then it must succeed on a CON save or be stunned until the end of your next turn. Each time a stunned target takes damage, it can repeat the save, ending the stunned effect on a success."
+  },
+  {
+    "id": "monk-empowered-strikes",
+    "name": "Empowered Strikes",
+    "source": "open",
+    "kind": "class",
+    "parentId": "monk",
+    "level": 6,
+    "description": "Your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+  },
+  {
+    "id": "monk-evasion",
+    "name": "Evasion",
+    "source": "open",
+    "kind": "class",
+    "parentId": "monk",
+    "level": 6,
+    "description": "You can dodge out of the way of certain area effects, such as a blue dragon’s lightning breath or a fireball spell. When you are subjected to an effect that allows you to make a DEX save to take only half damage, you instead take no damage if you succeed on the save and only half damage if you fail."
+  },
+  {
+    "id": "monk-perfect-motion",
+    "name": "Perfect Motion",
+    "source": "open",
+    "kind": "class",
+    "parentId": "monk",
+    "level": 9,
+    "description": "While you aren’t wearing armor or wielding a shield, you gain the following benefits:\n\n• When you fall, you can use your reaction to reduce any falling damage you would take by an amount equal to 5 × your monk level.\n\n• You can move along vertical surfaces and across liquids on your turn without falling during the move. If you end your movement or if your movement is interrupted while you are standing on a vertical surface or on liquid, you fall as normal."
+  },
+  {
+    "id": "monk-heroic-boon",
+    "name": "Heroic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "monk",
+    "level": 10,
+    "description": "Your commitment to the monk’s path grants you a powerful new ability. Choose one of the following heroic boons:"
+  },
+  {
+    "id": "monk-astral-teachings",
+    "name": "Astral Teachings",
+    "source": "open",
+    "kind": "class",
+    "parentId": "monk",
+    "level": 13,
+    "description": "As an action, you can expend 2 technique points to become proficient in one language, skill, tool, or weapon of your choice until you are incapacitated or use this feature again."
+  },
+  {
+    "id": "monk-diamond-soul",
+    "name": "Diamond Soul",
+    "source": "open",
+    "kind": "class",
+    "parentId": "monk",
+    "level": 14,
+    "description": "Your mastery of energy grants you proficiency in all saves. In addition, when you make a save and fail, you can spend 1 technique point to reroll it. You must take the second result."
+  },
+  {
+    "id": "monk-timeless-self",
+    "name": "Timeless Self",
+    "source": "open",
+    "kind": "class",
+    "parentId": "monk",
+    "level": 17,
+    "description": "Your spirit sustains you, body and mind. You gain the following benefits:\n\n• You can’t be magically aged and suffer none of the frailty of old age. You can still die of old age, however.\n\n• You no longer need food or water.\n\n• Your ability scores and hit point maximum can’t be lowered or reduced by any means short of a wish spell."
+  },
+  {
+    "id": "monk-empty-body",
+    "name": "Empty Body",
+    "source": "open",
+    "kind": "class",
+    "parentId": "monk",
+    "level": 18,
+    "description": "You can use your action to spend 4 technique points to become invisible for 1 minute. During that time, you also have resistance to all damage but force damage. In addition, you can spend 8 technique points to cast the astral projection spell as an action (ignoring the standard casting time), without needing material components. When you do so, you can’t take any other creatures with you."
+  },
+  {
+    "id": "monk-epic-boon",
+    "name": "Epic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "monk",
+    "level": 20,
+    "description": "Your commitment to the monk’s path grants you a powerful new ability. You gain the following epic boon:"
+  },
+  {
+    "id": "paladin-divine-sense",
+    "name": "Divine Sense",
+    "source": "open",
+    "kind": "class",
+    "parentId": "paladin",
+    "level": 1,
+    "description": "During your turn, you can open your awareness to detect the presence of supernatural forces (no action required). For 1 minute, you know the location of any Celestial, Fiend, or Undead within 60 feet of you that isn’t behind total cover. You know the creature type of any being whose presence you sense, but you don’t know which specific creature it is. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated with the hallow spell.\nYou can use this feature a number of times equal to your PB + 1. When you finish a long rest, you regain all uses."
+  },
+  {
+    "id": "paladin-lay-on-hands",
+    "name": "Lay on Hands",
+    "source": "open",
+    "kind": "class",
+    "parentId": "paladin",
+    "level": 1,
+    "description": "Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to 5 × your paladin level.\nAs an action, you can touch a willing creature and draw from the pool to restore a number of hit points to that creature up to the maximum amount remaining in your pool. Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of this feature, expending hit points separately for each one.\nAs a bonus action, you can use this feature to affect yourself instead of a different creature. This feature has no effect on Constructs or Undead."
+  },
+  {
+    "id": "paladin-divine-smite",
+    "name": "Divine Smite",
+    "source": "open",
+    "kind": "class",
+    "parentId": "paladin",
+    "level": 2,
+    "description": "Once per turn, when you hit a creature with a weapon attack, you can expend one spell slot to deal extra radiant damage to the target, in addition to the weapon’s normal damage. The extra damage is 2d8 for a 1st-circle spell slot, plus 1d8 for each circle higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is a Fiend or Undead."
+  },
+  {
+    "id": "paladin-martial-action",
+    "name": "Martial Action",
+    "source": "open",
+    "kind": "class",
+    "parentId": "paladin",
+    "level": 2,
+    "description": "Your tactical expertise allows you to act quickly on the battlefield. You can take a bonus action on each of your turns in combat to perform a weapon option or one of the martial actions granted by this feature.\nChoose one of the following martial actions that you know."
+  },
+  {
+    "id": "paladin-spellcasting",
+    "name": "Spellcasting",
+    "source": "open",
+    "kind": "class",
+    "parentId": "paladin",
+    "level": 2,
+    "description": "At 2nd level, you enhance your martial prowess with the ability to cast Divine spells.\nCasting Spells\nYou know a small number of spells and can cast any of them by using a Divine spell slot of the spell’s circle or higher. You don't need to prepare spells ahead of time.\nThe Paladin Progression table shows how many spells you know and how many Divine spell slots you have at a given level. For example, at 5th level, you have four 1st- circle slots and two 2nd-circle slots. If you know the 1st- circle spell bless and have a 1st-circle and a 2nd-circle spell slot available, you can cast bless using either slot. If you use a 1st-circle slot, you have three 1st-circle slots remaining.\nYou regain all used spell slots when you finish a long rest.\nSpells Known of 1st Circle or Higher\nAt 2nd level, choose two 1st-circle spells from the Divine spell list to learn.\nThe Spells Known column of the Paladin Progression table shows when you learn additional Divine spells. Each spell you choose must be from a circle for which you have Divine spell slots. For instance, when you reach 5th level as a paladin, you can learn one new Divine spell from the 1st or 2nd circle.\nIn addition, when you gain a level of paladin, you can choose one Divine spell you know and replace it with another spell of your choice from the Divine spell list. The replacement spell must be of a circle for which you have Divine spell slots.\nSpellcsating Ability\nCharisma (CHA) is your spellcasting ability. Your CHA modifier determines the save DC or the attack modifier for certain spells you cast:\nSpell save DC = 8 + your proficiency bonus (PB) + your CHA modifier\nSpell attack modifier = your proficiency bonus (PB) + your CHA modifier\nSpellcasting Focus\nYou can use a holy symbol as a spellcasting focus for your Divine spells."
+  },
+  {
+    "id": "paladin-multiattack",
+    "name": "Multiattack",
+    "source": "open",
+    "kind": "class",
+    "parentId": "paladin",
+    "level": 5,
+    "description": "Your physical prowess has grown. On your turn, you can make two attacks when you take the Attack action."
+  },
+  {
+    "id": "paladin-aura-of-protection",
+    "name": "Aura of Protection",
+    "source": "open",
+    "kind": "class",
+    "parentId": "paladin",
+    "level": 6,
+    "description": "When you or a friendly creature within 10 feet of you makes a save, the creature gains a bonus to the save equal to your CHA modifier (minimum bonus of +1). You must be conscious to grant this bonus. A creature can only receive the benefits of one Aura of Protection feature at a time (that is, auras from multiple paladins don’t stack)."
+  },
+  {
+    "id": "paladin-aura-of-courage",
+    "name": "Aura of Courage",
+    "source": "open",
+    "kind": "class",
+    "parentId": "paladin",
+    "level": 9,
+    "description": "You and friendly creatures within 10 feet of you can’t be frightened while you are conscious."
+  },
+  {
+    "id": "paladin-heroic-boon",
+    "name": "Heroic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "paladin",
+    "level": 10,
+    "description": "Your commitment to the paladin’s path grants you a powerful new ability. Choose one of the following heroic boons:"
+  },
+  {
+    "id": "paladin-cleansing-touch",
+    "name": "Cleansing Touch",
+    "source": "open",
+    "kind": "class",
+    "parentId": "paladin",
+    "level": 14,
+    "description": "You can use your action to end one spell on yourself or on one willing creature you touch.\nYou can use this feature a number of times equal to your CHA modifier (minimum of one). You regain expended uses when you finish a long rest."
+  },
+  {
+    "id": "paladin-aura-improvements",
+    "name": "Aura Improvements",
+    "source": "open",
+    "kind": "class",
+    "parentId": "paladin",
+    "level": 17,
+    "description": "The range of your Aura of Protection and Aura of Courage features (and any auras granted by your paladin subclass) increases to 30 feet."
+  },
+  {
+    "id": "paladin-epic-boon",
+    "name": "Epic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "paladin",
+    "level": 20,
+    "description": "Your commitment to the cleric’s path grants you a powerful new ability. You gain the following epic boon:"
+  },
+  {
+    "id": "ranger-explorer",
+    "name": "Explorer",
+    "source": "open",
+    "kind": "class",
+    "parentId": "ranger",
+    "level": 1,
+    "description": "Your ability to deal with environmental challenges is unmatched. You gain the following benefits:\n\n• You gain either a climbing speed or swimming speed equal to your base movement speed.\n\n• You have advantage on checks to track a creature.\n\n• Your speed isn’t halved when you move through nonmagical or magical difficult terrain. You suffer other penalties caused by moving through difficult terrain as normal."
+  },
+  {
+    "id": "ranger-mystic-mark",
+    "name": "Mystic Mark",
+    "source": "open",
+    "kind": "class",
+    "parentId": "ranger",
+    "level": 1,
+    "description": "When you hit a creature with an attack roll, you can mystically mark it as your favored quarry. The creature remains marked for 1 minute, until you use this feature to mark a different creature, or until you become incapacitated.\nWhile a creature is marked (including for the attack that triggered the mark), you deal an extra 1d4 damage to it (of the same damage type as the weapon) each time you successfully hit it with a weapon attack.\nYou can use this feature a number of times equal to your PB. You regain all uses when you finish a long rest.\nThis extra damage increases as you gain ranger levels, becoming 1d6 at 6th level, 1d8 at 13th, and 1d10 at 17th."
+  },
+  {
+    "id": "ranger-martial-action",
+    "name": "Martial Action",
+    "source": "open",
+    "kind": "class",
+    "parentId": "ranger",
+    "level": 2,
+    "description": "Your tactical expertise allows you to act quickly on the battlefield. You can take a bonus action on each of your turns in combat to perform a weapon option or one of the martial actions granted by this feature.\nChoose one of the following martial actions that you know."
+  },
+  {
+    "id": "ranger-spellcasting",
+    "name": "Spellcasting",
+    "source": "open",
+    "kind": "class",
+    "parentId": "ranger",
+    "level": 2,
+    "description": "At 2nd level, you enhance your martial prowess with the ability to cast Primordial spells.\nCasting Spells\nYou know a small number of spells and can cast any of them by using a Primordial spell slot of the spell’s circle or higher. You don't need to prepare spells ahead of time.\nThe Ranger Progression table shows how many spells you know and how many Primordial spell slots you have at a given level. For example, at 5th level, you have four 1st-circle slots and two 2nd-circle slots. If you know the 1st-circle spell animal friendship and have a 1st-circle and a 2nd-circle spell slot available, you can cast animal friendship using either slot. If you use a 1st-circle slot, you have three 1st-circle slots remaining.\nYou regain all used spell slots when you finish a long rest.\nSpells Known of 1st Circle and Higher\nAt 2nd level, choose two 1st-circle spells from the Primordial spell list that you know.\nThe Spells Known column of the Ranger Progression table shows when you learn additional Primordial spells. Each spell you choose must be from a circle for which you have Primordial spell slots. For instance, when you reach 5th level as a ranger, you can learn one new Primordial spell from the 1st or 2nd circle.\nIn addition, when you gain a level of ranger, you can choose one Primordial spell you know and replace it with another spell of your choice from the Primordial spell list. The replacement spell must be of a circle for which you have Primordial spell slots.\nSpellcasting Ability\nWisdom (WIS) is your spellcasting ability. Your WIS modifier determines the save DC or the attack modifier for certain spells you cast:\nSpell save DC = 8 + your proficiency bonus (PB) + your WIS modifier\nSpell attack modifier = your proficiency bonus (PB) + your WIS modifier\nSpellcasting Focus\nYou can use a druidic focus as a spellcasting focus for your Primordial spells."
+  },
+  {
+    "id": "ranger-multiattack",
+    "name": "Multiattack",
+    "source": "open",
+    "kind": "class",
+    "parentId": "ranger",
+    "level": 5,
+    "description": "Your physical prowess has grown. On your turn, you can make two attacks when you take the Attack action."
+  },
+  {
+    "id": "ranger-empowered-mark",
+    "name": "Empowered Mark",
+    "source": "open",
+    "kind": "class",
+    "parentId": "ranger",
+    "level": 6,
+    "description": "Your instincts have sharpened, granting you supernatural awareness of your quarry. While a creature marked by your Mystic Mark feature is within 60 feet of you, you know its exact location, and it can’t gain advantage on attacks against you as a result of being invisible or otherwise unseen. In addition, when you attack a marked creature within 60 feet of you, an inability to see it doesn’t impose disadvantage on your attack rolls against it."
+  },
+  {
+    "id": "ranger-stalkers-step",
+    "name": "Stalker’s Step",
+    "source": "open",
+    "kind": "class",
+    "parentId": "ranger",
+    "level": 9,
+    "description": "While you are in dim light, darkness, or are lightly obscured or heavily obscured by foliage, mist, or some other natural phenomenon, you can use a bonus action to magically become invisible, along with any equipment you are wearing or carrying, until the start of your next turn. This invisibility ends early if you attack or cast a spell.\nYou can use this feature a number of times equal to your PB and regain all uses when you complete a long rest."
+  },
+  {
+    "id": "ranger-heroic-boon",
+    "name": "Heroic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "ranger",
+    "level": 10,
+    "description": "Your commitment to the ranger’s path grants you a powerful new ability. Choose one of the following heroic boons:"
+  },
+  {
+    "id": "ranger-keensense",
+    "name": "Keensense",
+    "source": "open",
+    "kind": "class",
+    "parentId": "ranger",
+    "level": 14,
+    "description": "You have keensense to a range of 10 feet. Your keensense ceases to function while you are deafened or otherwise deprived of hearing."
+  },
+  {
+    "id": "ranger-strider",
+    "name": "Strider",
+    "source": "open",
+    "kind": "class",
+    "parentId": "ranger",
+    "level": 18,
+    "description": "Your movement never provokes opportunity attacks, and you have advantage on any check made to resist an effect that would cause you to become grappled, restrained, or paralyzed or that would otherwise reduce your movement speed to 0 feet."
+  },
+  {
+    "id": "ranger-epic-boon",
+    "name": "Epic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "ranger",
+    "level": 20,
+    "description": "Your commitment to the ranger’s path grants you a powerful new ability. You gain the following epic boon:"
+  },
+  {
+    "id": "rogue-expertise",
+    "name": "Expertise",
+    "source": "open",
+    "kind": "class",
+    "parentId": "rogue",
+    "level": 1,
+    "description": "Choose two of your skill proficiencies, or one skill proficiency and one tool proficiency. Double your PB for any ability check you make that uses either of the chosen proficiencies.\nAt 6th level, choose two more of your proficiencies (any combination of skills or tools) to gain this benefit."
+  },
+  {
+    "id": "rogue-sneak-attack",
+    "name": "Sneak Attack",
+    "source": "open",
+    "kind": "class",
+    "parentId": "rogue",
+    "level": 1,
+    "description": "You know how to strike subtly and exploit a foe’s distraction. Once on your turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The weapon you use must have the Finesse property or be a ranged weapon.\nYou don’t need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn’t incapacitated, and you don’t have disadvantage on the attack roll.\nThe amount of your extra damage you deal increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue Progression table."
+  },
+  {
+    "id": "rogue-thieves-cant",
+    "name": "Thieves' Cant",
+    "source": "open",
+    "kind": "class",
+    "parentId": "rogue",
+    "level": 1,
+    "description": "During your rogue training, you learned Thieves’ Cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature who knows Thieves’ Cant understands such messages. It takes four times longer to convey a message in Thieves’ Cant than it does to speak the same idea plainly.\nIn addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves’ guild, whether loot is nearby, or whether people in an area are easy marks or will provide a safe house for thieves on the run."
+  },
+  {
+    "id": "rogue-cunning-action",
+    "name": "Cunning Action",
+    "source": "open",
+    "kind": "class",
+    "parentId": "rogue",
+    "level": 2,
+    "description": "Your quick thinking and agility allow you to move and act quickly. You can use a bonus action to take the Dash, Disengage, or Hide action."
+  },
+  {
+    "id": "rogue-uncanny-dodge",
+    "name": "Uncanny Dodge",
+    "source": "open",
+    "kind": "class",
+    "parentId": "rogue",
+    "level": 5,
+    "description": "When an attacker that you can see hits you with an attack, you can use your reaction to reduce the attack’s damage against you by half."
+  },
+  {
+    "id": "rogue-evasion",
+    "name": "Evasion",
+    "source": "open",
+    "kind": "class",
+    "parentId": "rogue",
+    "level": 6,
+    "description": "You can dodge out of the way of certain area effects, such as a blue dragon’s lightning breath or a fireball spell. When you are subjected to an effect that allows you to make a DEX save to take only half damage, you instead take no damage if you succeed on the save and only half damage if you fail."
+  },
+  {
+    "id": "rogue-reliable-talent",
+    "name": "Reliable Talent",
+    "source": "open",
+    "kind": "class",
+    "parentId": "rogue",
+    "level": 9,
+    "description": "You have refined your chosen skills until they approach perfection. When you make an ability check with a skill, tool, or vehicle that you have proficiency with, treat a d20 roll of 9 or lower as if you rolled a 10."
+  },
+  {
+    "id": "rogue-heroic-boon",
+    "name": "Heroic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "rogue",
+    "level": 10,
+    "description": "Your commitment to the rogue’s path grants you a powerful new ability. Choose one of the following heroic boons:"
+  },
+  {
+    "id": "rogue-precise-critical",
+    "name": "Precise Critical",
+    "source": "open",
+    "kind": "class",
+    "parentId": "rogue",
+    "level": 13,
+    "description": "You score a critical hit on a d20 roll of 19 or 20 with ranged weapons and weapons with the Finesse property. In addition, you can roll one additional weapon damage die (not an additional Sneak Attack die) when determining the extra damage for a critical hit with a ranged weapon attack or attack made with a Finesse weapon.\nThis extra damage increases to two additional dice at 17th level."
+  },
+  {
+    "id": "rogue-keensense",
+    "name": "Keensense",
+    "source": "open",
+    "kind": "class",
+    "parentId": "rogue",
+    "level": 14,
+    "description": "You have keensense to a range of 10 feet. Your keensense ceases to function while you are deafened or otherwise deprived of hearing."
+  },
+  {
+    "id": "rogue-elusive",
+    "name": "Elusive",
+    "source": "open",
+    "kind": "class",
+    "parentId": "rogue",
+    "level": 18,
+    "description": "You are so evasive that attackers rarely gain the upper hand against you. While you aren’t incapacitated, attack rolls can’t have advantage against you, regardless of the source of advantage."
+  },
+  {
+    "id": "rogue-epic-boon",
+    "name": "Epic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "rogue",
+    "level": 20,
+    "description": "Your commitment to the rogue’s path grants you a powerful new ability. You gain the following epic boon:"
+  },
+  {
+    "id": "sorcerer-font-of-magic",
+    "name": "Font of Magic",
+    "source": "open",
+    "kind": "class",
+    "parentId": "sorcerer",
+    "level": 1,
+    "description": "You begin to draw from an internal wellspring of magic. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.\nSorcery Points\nYou start with 2 sorcery points at 1st level, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer Progression table. You can never have more sorcery points than shown in the table for your level. You regain all spent sorcery points when you finish a long rest.\nFlexible Casting\nYou can sacrifice spell slots to gain additional sorcery points or use your sorcery points to gain additional spell slots. You learn other ways to use your sorcery points as you reach higher levels.\nConverting a Spell Slot to Sorcery Points. As a bonus action, you can expend one Arcane spell slot and gain a number of sorcery points equal to the spell slot’s circle.\nCreating Spell Slots. You can spend sorcery points to gain one Arcane spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given circle. You can create spell slots no higher than 5th circle with this feature, and the spell slots you create vanish when you finish a long rest."
+  },
+  {
+    "id": "sorcerer-spellcasting",
+    "name": "Spellcasting",
+    "source": "open",
+    "kind": "class",
+    "parentId": "sorcerer",
+    "level": 1,
+    "description": "As a conduit for arcane power, you can cast Arcane spells.\nCantrips\nAt 1st level, choose three cantrips from the Arcane spell list to learn. You choose more Arcane cantrips to learn at higher levels, as shown in the Cantrips Known column of the Sorcerer Progression table.\nCasting Spells\nYou know a small number of spells and can cast any of them by using an Arcane spell slot of the spell’s circle or higher. You don't need to prepare spells ahead of time.\nThe Sorcerer Progression table shows how many spells you know and how many Arcane spell slots you have at a given level. For example, at 3rd level, you have four 1st-circle slots and two 2nd-circle slots. If you know the 1st-circle spell magic missile and have a 1st-circle and a 2nd-circle spell slot available, you can cast magic missile using either slot. If you use a 1st-circle slot, you have three 1st-circle slots remaining.\nYou regain all used spell slots when you finish a long rest.\nSpells Known of 1st Circle and Higher\nAt 1st level, choose two 1st-circle spells from the Arcane spell list to learn.\nThe Spells Known column of the Sorcerer Progression table shows when you learn additional Arcane spells. Each spell you choose must be from a circle for which you have Arcane spell slots. For instance, when you reach 3rd level as a sorcerer, you can learn one new Arcane spell of 1st or 2nd circle.\nIn addition, when you gain a level of sorcerer, you can choose one Arcane spell you know and replace it with another spell of your choice from the Arcane spell list. The replacement spell must be of a circle for which you have Arcane spell slots.\nSpellcasting Ability\nCharisma (CHA) is your spellcasting ability. Your CHA modifier determines the save DC or the attack modifier for certain spells you cast:\nSpell save DC = 8 + your proficiency bonus (PB) + your CHA modifier\nSpell attack modifier = your proficiency bonus (PB) + your CHA modifier\nSpellcasting Focus\nYou can use an arcane focus as a spellcasting focus for your Arcane spells."
+  },
+  {
+    "id": "sorcerer-metamagic",
+    "name": "Metamagic",
+    "source": "open",
+    "kind": "class",
+    "parentId": "sorcerer",
+    "level": 2,
+    "description": "You gain the ability to twist your spells to suit your needs in the moment. You start with two of the following Metamagic feature options of your choice. You gain another option at 6th, 13th, and 18th levels.\nYou can use only one Metamagic option on a spell when you cast it, unless otherwise noted. To alter a spell with metamagic, a spell must count as an Arcane spell for you.\nWhen your sorcerer level grants you the Improvement feature, you can replace one Metamagic option you know with a different Metamagic option from this list."
+  },
+  {
+    "id": "sorcerer-sorcerous-renewal",
+    "name": "Sorcerous Renewal",
+    "source": "open",
+    "kind": "class",
+    "parentId": "sorcerer",
+    "level": 5,
+    "description": "When you finish a short rest, roll 1d4 + 1 and regain that many sorcery points.\nAt higher levels, your Sorcerous Renewal feature improves: you roll 2d4 + 1 at 9th level, 3d4 + 1 at 13th, and 4d4 + 1 at 17th."
+  },
+  {
+    "id": "sorcerer-heroic-boon",
+    "name": "Heroic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "sorcerer",
+    "level": 10,
+    "description": "Your commitment to the sorcerer’s path grants you a powerful new ability. Choose one of the following heroic boons:"
+  },
+  {
+    "id": "sorcerer-devour-spell",
+    "name": "Devour Spell",
+    "source": "open",
+    "kind": "class",
+    "parentId": "sorcerer",
+    "level": 14,
+    "description": "When a creature you can see targets you with a spell, you can use your reaction to attempt to immediately draw the spell’s power into yourself. Make a CHA check with a DC equal to 10 + the spell’s circle. On a success, you and every other target of the spell have advantage on saves against it and take only half as much damage from it. You also gain a number of sorcery points equal to the spell’s circle.\nAlternatively, you can target a magical effect within 30 feet of you that was created by a spell, such as fog cloud or wall of fire. On a successful CHA check, the spell ends.\nOnce you successfully devour a spell, you can't use this feature again until you finish a long rest, unless you spend 4 sorcery points to do so."
+  },
+  {
+    "id": "sorcerer-epic-boon",
+    "name": "Epic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "sorcerer",
+    "level": 20,
+    "description": "Your commitment to the sorcerer’s path grants you a powerful new ability. You gain the following epic boon:"
+  },
+  {
+    "id": "warlock-eldritch-blast",
+    "name": "Eldritch Blast",
+    "source": "open",
+    "kind": "class",
+    "parentId": "warlock",
+    "level": 1,
+    "description": "As a result of binding yourself to otherworldly powers, you can conjure a baleful magical energy. As an action, you can send a beam of crackling eldritch power toward a creature within 120 feet of you. When you do so, make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage.\nUpon achieving higher levels of warlock, you can create more than one beam: two beams at 5th level, three at 9th, and four at 14th. You can direct the beams at the same or different target. You make a separate attack roll for each beam."
+  },
+  {
+    "id": "warlock-pact-boon",
+    "name": "Pact Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "warlock",
+    "level": 1,
+    "description": "The initial pact that grants you your warlock powers is sealed with the gift of a Pact Boon. You gain one of the following boons of your choice."
+  },
+  {
+    "id": "warlock-eldritch-invocations",
+    "name": "Eldritch Invocations",
+    "source": "open",
+    "kind": "class",
+    "parentId": "warlock",
+    "level": 2,
+    "description": "In your study of occult lore, you have unearthed eldritch invocations. These fragments of forbidden knowledge imbue you with magical abilities that abide beyond any mere spell duration.\nYou gain two eldritch invocations of your choice, though you must meet any prerequisites. Invocation options are detailed at the end of the class description. At certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock Progression table.\nIn addition, when you gain a level in this class, you can choose one invocation you know and replace it with another invocation that you meet the prerequisites for."
+  },
+  {
+    "id": "warlock-spellcasting",
+    "name": "Spellcasting",
+    "source": "open",
+    "kind": "class",
+    "parentId": "warlock",
+    "level": 2,
+    "description": "Your eldritch power deepens, giving you the ability to cast Wyrd spells.\nCantrips\nAt 2nd level, choose two cantrips from the Wyrd spell list to learn. You choose more Wyrd cantrips to learn at higher levels, as shown in the Cantrips Known column of the Warlock Progression table.\nCasting Spells\nYou know a small number of spells and can cast any of them by using a Wyrd spell slot of the spell’s circle or higher. You don't need to prepare spells ahead of time.\nThe Warlock Progression table shows how many spells you know and how many spell slots you have per day at a given level. For example, at 5th level, you have four 1st- circle slots and two 2nd-circle slots. If you know the 1st-circle spell bane and have a 1st-circle and a 2nd-circle spell slot available, you can cast bane using either slot. If you use a 1st-circle slot, you have three 1st-circle slots remaining.\nYou regain all used spell slots when you finish a long rest.\nSpells Known of 1st-Circle and Higher\nAt 2nd level, choose two 1st-circle spells from the Wyrd spell list to learn.\nThe Spells Known column of the Warlock Progression table shows when you learn additional Wyrd spells. Each spell you choose must be from a circle for which you have Wyrd spell slots. For instance, when you reach 5th level as a warlock, you can learn one new Wyrd spell of 1st or 2nd circle.\nIn addition, when you gain a level of warlock, you can choose one Wyrd spell you know and replace it with another spell of your choice from the Wyrd spell list. The replacement spell must be of a circle for which you have Wyrd spell slots.\nSpellcasting Ability\nCharisma (CHA) is your spellcasting ability. Your CHA modifier determines the save DC or the attack modifier for certain spells you cast:\nSpell save DC = 8 + your proficiency bonus (PB) + your CHA modifier\nSpell attack modifier = your proficiency bonus (PB) + your CHA modifier\nSpellcasting Focus\nYou can use a wyrd focus as a spellcasting focus for your Wyrd spells."
+  },
+  {
+    "id": "warlock-enhanced-boon",
+    "name": "Enhanced Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "warlock",
+    "level": 6,
+    "description": "Your patron enhances your Pact Boon as a reward for your service. You gain one of the following enhancements as determined by your chosen Pact Boon. If you have more than one Pact Boon, choose which one is enhanced."
+  },
+  {
+    "id": "warlock-heroic-boon",
+    "name": "Heroic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "warlock",
+    "level": 10,
+    "description": "Your commitment to the warlock’s path grants you a powerful new ability. Choose one of the following heroic boons:"
+  },
+  {
+    "id": "warlock-patrons-favor",
+    "name": "Patron’s Favor",
+    "source": "open",
+    "kind": "class",
+    "parentId": "warlock",
+    "level": 18,
+    "description": "You can call upon your patron’s power by expending a use of your Pact Magic feature to cast any spell you know of 5th-circle or lower from any spell list."
+  },
+  {
+    "id": "warlock-epic-boon",
+    "name": "Epic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "warlock",
+    "level": 20,
+    "description": "Your commitment to the warlock’s path grants you a powerful new ability. You gain the following epic boon:"
+  },
+  {
+    "id": "wizard-arcane-recovery",
+    "name": "Arcane Recovery",
+    "source": "open",
+    "kind": "class",
+    "parentId": "wizard",
+    "level": 1,
+    "description": "You have learned to regain some of your magical energy by studying your spellbook. Once per day, when you finish a short rest, you can recover expended Arcane spell slots of your choice. Recovered spell slots can have a combined circle total equal to or less than half your wizard level (rounded up).\nFor example, if you’re a 4th-level wizard, you can recover up to two circles’ worth of spell slots. So you could choose to recover either a single 2nd-circle spell slot or two 1st-circle spell slots."
+  },
+  {
+    "id": "wizard-spellcasting",
+    "name": "Spellcasting",
+    "source": "open",
+    "kind": "class",
+    "parentId": "wizard",
+    "level": 1,
+    "description": "As a student of Arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power.\nCantrips\nAt 1st level, choose three cantrips from the Arcane spell list to learn. You choose more Arcane cantrips to learn at higher levels, as shown in the Cantrips Known column of the Wizard Progression table.\nSpellbook\nAt 1st level, your spellbook contains six 1st-circle Arcane spells of your choice. It is the repository of all the Arcane spells you know—except for your cantrips, which are so simple and well-rehearsed that you don’t even need to write them down.\nPreparing Spells\nYou must prepare spells in advance before you can cast them. You can prepare any spell in your spellbook for which you have Arcane spell slots. (You determine which spell slots you can access by checking your level on the Wizard Progression table.) You can choose a number of spells equal to your INT modifier + your wizard level (minimum of one spell). This is your list of prepared spells from which you can cast.\nPreparing a new list of spells requires time studying your spellbook and re-memorizing incantations and gestures: at least 1 minute per spell circle for each spell you change. You can change your list of prepared spells as part of a long rest.\nCasting Spells\nYou have prepared a number of spells and can cast any of them by using an Arcane spell slot of the spell’s circle or higher.\nThe Wizard Progression table shows how many Arcane spell slots you have at a given level. For example, at 3rd level, you have four 1st-circle and two 2nd-circle spell slots, and with a 16 INT, you can have six prepared spells of 1st or 2nd circle, in any combination. You only have two spell slots for 2nd-circle spells though, so if you prepare only 2nd-circle spells, you won’t be able to use your 1st-circle spell slots at all.\nCasting a spell doesn’t remove it from your list of prepared spells, it just uses up a spell slot. You regain all used spell slots when you finish a long rest.\nLearning Spells of 1st Circle and Higher\nEach time you gain a wizard level, you can add two Arcane spells of your choice to your spellbook for free. Each spell must be of a circle for which you have Arcane spell slots, as shown on the Wizard Progression table. During your adventures, you might also find other Arcane spells to add to your spellbook.\nSpellcasting Ability\nIntelligence (INT) is your spellcasting ability. Your INT modifier determines the save DC or the attack modifier for certain spells you cast:\nSpell save DC = 8 + your proficiency bonus (PB) + your INT modifier\nSpell attack modifier = your proficiency bonus (PB) + your INT modifier\nRituals\nYou can also cast a type of long-form spell called a ritual. Rituals don’t need to be prepared, and they don’t use up spell slots.\nAt 1st level, choose one ritual from the Arcane ritual list. You learn more rituals at higher levels, as shown in the Rituals Known column of the Wizard Progression table, but only from a circle for which you have spell slots. Rituals you learn don't count against the number of spells you learn at each level.\nRituals are contained in your spellbook alongside your regular spells, and new rituals written on spell scrolls can be copied into your spellbook like normal Arcane spells.\nSpellcasting Focus\nYou can use an arcane focus as a spellcasting focus for your Arcane spells."
+  },
+  {
+    "id": "wizard-magic-sense",
+    "name": "Magic Sense",
+    "source": "open",
+    "kind": "class",
+    "parentId": "wizard",
+    "level": 2,
+    "description": "You learn to perceive magical workings. As an action, you can open your awareness to detect magical forces. Until the end of your next turn, you know the location of creatures with spellcasting ability, ongoing spell effects, or magic items within 30 feet of you. If the magical effect is the result of an ongoing spell, you learn which school of magic the spell belongs to.\nThis sense can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.\nYou can use this feature a number of times equal to your PB + 1. When you finish a long rest, you regain all uses."
+  },
+  {
+    "id": "wizard-rote-spell",
+    "name": "Rote Spell",
+    "source": "open",
+    "kind": "class",
+    "parentId": "wizard",
+    "level": 5,
+    "description": "Your continued practice of spellcraft has honed your mind, allowing you to affix a limited number of spells—called rote spells—in your mind. Choose one 1st-circle Arcane spell from your spellbook, and that spell is now a rote spell. You always have a rote spell prepared, and it doesn’t count against the number of spells you can prepare during a long rest. Casting a rote spell still uses a spell slot as normal.\nOver the course of 8 hours or as part of a long rest, you can exchange one rote spell for a different Arcane spell of the same circle contained in your spellbook.\nAt higher levels, you can select more rote spells: you choose a 2nd-circle Arcane spell to become a rote spell at 9th level, a 3rd-circle Arcane spell at 13th, and a 4th-circle Arcane spell at 17th."
+  },
+  {
+    "id": "wizard-superior-recovery",
+    "name": "Superior Recovery",
+    "source": "open",
+    "kind": "class",
+    "parentId": "wizard",
+    "level": 6,
+    "description": "When you use your Arcane Recovery feature, you can choose to swap out a number of prepared Arcane spells with different Arcane spells from your spellbook—in addition to recovering Arcane spell slots. You can swap out a number of prepared spells equal to half your PB (rounded down) in this way."
+  },
+  {
+    "id": "wizard-heroic-boon",
+    "name": "Heroic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "wizard",
+    "level": 10,
+    "description": "Your commitment to the wizard’s path grants you a powerful new ability. Choose one of the following heroic boons:"
+  },
+  {
+    "id": "wizard-spellguard",
+    "name": "Spellguard",
+    "source": "open",
+    "kind": "class",
+    "parentId": "wizard",
+    "level": 14,
+    "description": "Your knowledge of magic allows you to better assess the intentions and power of hostile spells and spell attacks, increasing your chance to avoid their effects. You have advantage on saves against spells and resistance to damage dealt by spells and spell attacks."
+  },
+  {
+    "id": "wizard-spell-mastery",
+    "name": "Spell Mastery",
+    "source": "open",
+    "kind": "class",
+    "parentId": "wizard",
+    "level": 18,
+    "description": "You can cast each of your rote spells at their lowest circle once without expending a spell slot. Once you cast a rote spell, you can’t cast that same spell in this way again until you finish a short or long rest.\nIf you want to cast any of your rote spells at a higher circle, you must expend an Arcane spell slot as normal."
+  },
+  {
+    "id": "wizard-epic-boon",
+    "name": "Epic Boon",
+    "source": "open",
+    "kind": "class",
+    "parentId": "wizard",
+    "level": 20,
+    "description": "Your commitment to the wizard’s path grants you a powerful new ability. You gain the following epic boon:"
+  },
+  {
+    "id": "beastkin-animal-instinct",
+    "name": "Animal Instinct",
+    "source": "open",
+    "kind": "lineage",
+    "parentId": "beastkin",
+    "level": 0,
+    "description": "You have proficiency in either the Perception or Survival skill (your choice)."
+  },
+  {
+    "id": "beastkin-natural-weapons",
+    "name": "Natural Weapons",
+    "source": "open",
+    "kind": "lineage",
+    "parentId": "beastkin",
+    "level": 0,
+    "description": "You have claws, horns, hooves, fangs, spines, or a similar adaptation that serves as a natural weapon. Work with your GM to determine what type of natural weapon you possess and decide whether it does bludgeoning, piercing, or slashing damage. You can use your natural weapon to make unarmed strikes. When you hit with it, the strike deals 1d6 + your STR or DEX modifier damage (choose which during character creation) of your chosen type, instead of the bludgeoning damage normal for an unarmed strike."
+  },
+  {
+    "id": "beastkin-natural-adaptation",
+    "name": "Natural Adaptation",
+    "source": "open",
+    "kind": "lineage",
+    "parentId": "beastkin",
+    "level": 0,
+    "description": "You inherit one of the following traits determined by what kind of animal characteristics you want your character to have:"
+  },
+  {
+    "id": "dwarf-darkvision",
+    "name": "Darkvision",
+    "source": "open",
+    "kind": "lineage",
+    "parentId": "dwarf",
+    "level": 0,
+    "description": "You have darkvision to a range of 60 feet."
+  },
+  {
+    "id": "dwarf-dwarven-resilience",
+    "name": "Dwarven Resilience",
+    "source": "open",
+    "kind": "lineage",
+    "parentId": "dwarf",
+    "level": 0,
+    "description": "You have advantage on saves against becoming poisoned, and you are resistant to poison damage."
+  },
+  {
+    "id": "dwarf-dwarven-toughness",
+    "name": "Dwarven Toughness",
+    "source": "open",
+    "kind": "lineage",
+    "parentId": "dwarf",
+    "level": 0,
+    "description": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+  },
+  {
+    "id": "elf-heightened-senses",
+    "name": "Heightened Senses",
+    "source": "open",
+    "kind": "lineage",
+    "parentId": "elf",
+    "level": 0,
+    "description": "You have advantage on Perception checks that rely on sight or hearing. You can see through lightly obscured areas normally and areas of dim light as if it were bright light."
+  },
+  {
+    "id": "elf-magic-ancestry",
+    "name": "Magic Ancestry",
+    "source": "open",
+    "kind": "lineage",
+    "parentId": "elf",
+    "level": 0,
+    "description": "You have advantage on saves against being charmed."
+  },
+  {
+    "id": "elf-trance",
+    "name": "Trance",
+    "source": "open",
+    "kind": "lineage",
+    "parentId": "elf",
+    "level": 0,
+    "description": "Elves don’t need to sleep. Instead, they enter a meditative trance state, remaining semiconscious for 4 hours a day. You choose whether or not you can dream while meditating. After resting in this way, you gain the same benefit that other creatures do from 8 hours of sleep."
+  },
+  {
+    "id": "human-ambitious",
+    "name": "Ambitious",
+    "source": "open",
+    "kind": "lineage",
+    "parentId": "human",
+    "level": 0,
+    "description": "You gain proficiency in one skill of your choice, and you gain one talent of your choice. This talent can be from any of the talent lists, but you must meet the talent’s prerequisites if any are required."
+  },
+  {
+    "id": "orc-orcish-perseverance",
+    "name": "Orcish Perseverance",
+    "source": "open",
+    "kind": "lineage",
+    "parentId": "orc",
+    "level": 0,
+    "description": "When you would die due to suffocating or gaining levels of exhaustion, you instead enter a death-like stasis. While in stasis you are incapacitated, can’t move, can’t speak, and are unaware of your surroundings. You also cease to age, and your body is protected from decay. You can remain in this state until you are restored by mundane or magical healing, or your body is completely destroyed."
+  },
+  {
+    "id": "orc-heightened-senses",
+    "name": "Heightened Senses",
+    "source": "open",
+    "kind": "lineage",
+    "parentId": "orc",
+    "level": 0,
+    "description": "You have advantage on Perception checks that rely on sight or hearing. You can see through lightly obscured areas normally and areas of dim light as if it were bright light."
+  },
+  {
+    "id": "orc-stalwart",
+    "name": "Stalwart",
+    "source": "open",
+    "kind": "lineage",
+    "parentId": "orc",
+    "level": 0,
+    "description": "When you are subjected to an effect that requires you to make a save at the end of your turn, you can instead choose to make the save at the start of your turn."
+  },
+  {
+    "id": "smallfolk-grounded",
+    "name": "Grounded",
+    "source": "open",
+    "kind": "lineage",
+    "parentId": "smallfolk",
+    "level": 0,
+    "description": "Once per day, when you fail a save, you can reroll the die and use the new roll. Regardless of whether the new roll is a success or failure, you generate 1 Luck."
+  },
+  {
+    "id": "smallfolk-small-stature",
+    "name": "Small Stature",
+    "source": "open",
+    "kind": "lineage",
+    "parentId": "smallfolk",
+    "level": 0,
+    "description": "You can move through the space of any creature that is Medium or larger size. You can also attempt to hide when you are obscured by a creature of Medium or larger size."
+  },
+  {
+    "id": "smallfolk-natural-adaptation",
+    "name": "Natural Adaptation",
+    "source": "open",
+    "kind": "lineage",
+    "parentId": "smallfolk",
+    "level": 0,
+    "description": "You inherited one of the following unique traits, determined by whether your characteristics are gnomish or halfling:"
+  },
+  {
+    "id": "cosmopolitan-street-smarts",
+    "name": "Street Smarts",
+    "source": "open",
+    "kind": "heritage",
+    "parentId": "cosmopolitan",
+    "level": 0,
+    "description": "While in a city or other urban environment, you have advantage on ability checks made to avoid getting lost and checks made to find a particular kind of business or other destination open to the public. In addition, while you are in such environments, you can’t be surprised unless you are asleep or otherwise incapacitated."
+  },
+  {
+    "id": "cosmopolitan-worldly-wisdom",
+    "name": "Worldly Wisdom",
+    "source": "open",
+    "kind": "heritage",
+    "parentId": "cosmopolitan",
+    "level": 0,
+    "description": "You have proficiency with the History skill. When you make a check related to understanding the purpose or significance of a building, rite, or object from a culture you aren’t familiar with, you can add your PB to the roll. If you have proficiency in a relevant skill or tool, double your PB for the roll."
+  },
+  {
+    "id": "cottage-comforts-of-home",
+    "name": "Comforts of Home",
+    "source": "open",
+    "kind": "heritage",
+    "parentId": "cottage",
+    "level": 0,
+    "description": "As part of a long rest, you can cook a meal, tell stories, or perform some other activity that comforts your allies. Choose a number of creatures who participated in the long rest equal to your PB (this can include you). Those creatures gain temporary HP equal to twice your PB. These temporary HP last until expended or until you complete your next long rest."
+  },
+  {
+    "id": "cottage-homesteader",
+    "name": "Homesteader",
+    "source": "open",
+    "kind": "heritage",
+    "parentId": "cottage",
+    "level": 0,
+    "description": "You have proficiency in either the Animal Handling or Nature skill."
+  },
+  {
+    "id": "diaspora-preserved-traditions",
+    "name": "Preserved Traditions",
+    "source": "open",
+    "kind": "heritage",
+    "parentId": "diaspora",
+    "level": 0,
+    "description": "You gain proficiency with the History skill. You also gain proficiency with one type of martial weapon of your choice."
+  },
+  {
+    "id": "diaspora-timeless-resolve",
+    "name": "Timeless Resolve",
+    "source": "open",
+    "kind": "heritage",
+    "parentId": "diaspora",
+    "level": 0,
+    "description": "When you or an allied creature within 5 feet of you makes a save against becoming frightened, you and the ally have advantage on the save."
+  },
+  {
+    "id": "grove-canopy-walker",
+    "name": "Canopy Walker",
+    "source": "open",
+    "kind": "heritage",
+    "parentId": "grove",
+    "level": 0,
+    "description": "You have a climbing speed equal to your walking speed."
+  },
+  {
+    "id": "grove-natures-camouflage",
+    "name": "Nature's Camouflage",
+    "source": "open",
+    "kind": "heritage",
+    "parentId": "grove",
+    "level": 0,
+    "description": "You have advantage on DEX (Stealth) checks made while you are lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena. While in such conditions, you can always attempt to take the Hide action, even if circumstances would not normally allow you to do so."
+  },
+  {
+    "id": "nomadic-resilient",
+    "name": "Resilient",
+    "source": "open",
+    "kind": "heritage",
+    "parentId": "nomadic",
+    "level": 0,
+    "description": "You have advantage on checks or saves made to resist debilitating weather effects, such as those caused by extreme heat or cold. In addition, when you complete a short rest, you can reduce your exhaustion level by one. Once used, you can't reduce your exhaustion level in this way again until you complete a long rest."
+  },
+  {
+    "id": "nomadic-traveler",
+    "name": "Traveler",
+    "source": "open",
+    "kind": "heritage",
+    "parentId": "nomadic",
+    "level": 0,
+    "description": "You have proficiency in the Survival skill."
+  },
+  {
+    "id": "slayer-natural-predator",
+    "name": "Natural Predator",
+    "source": "open",
+    "kind": "heritage",
+    "parentId": "slayer",
+    "level": 0,
+    "description": "You have proficiency in the Intimidation skill. You have advantage on Intimidation checks to influence Beasts and creatures with the Animal tag."
+  },
+  {
+    "id": "slayer-tracker",
+    "name": "Tracker",
+    "source": "open",
+    "kind": "heritage",
+    "parentId": "slayer",
+    "level": 0,
+    "description": "When you make a check to locate, spot, or track a creature, you can add your PB to the roll. If you have proficiency in the skill or tool being used, double your PB for the roll."
+  },
+  {
+    "id": "stone-ancestral-arts",
+    "name": "Ancestral Arts",
+    "source": "open",
+    "kind": "heritage",
+    "parentId": "stone",
+    "level": 0,
+    "description": "You gain proficiency with Construction tools. Double your PB for any ability check you make that uses them. You also gain proficiency with one type of martial weapon of your choice."
+  },
+  {
+    "id": "stone-eye-for-quality",
+    "name": "Eye for Quality",
+    "source": "open",
+    "kind": "heritage",
+    "parentId": "stone",
+    "level": 0,
+    "description": "When you make an ability check related to the origin or purpose of an object or structure made of metal or stone, you can add your PB to the roll. If you have proficiency in a relevant skill or tool, double your PB for the roll."
+  },
+  {
+    "id": "supplicant-scurry",
+    "name": "Scurry",
+    "source": "open",
+    "kind": "heritage",
+    "parentId": "supplicant",
+    "level": 0,
+    "description": "As a bonus action, you can move up to 10 feet without provoking opportunity attacks. This movement doesn't trigger traps or hazards that you are aware of, even if they are armed."
+  },
+  {
+    "id": "supplicant-supplicant",
+    "name": "Supplicant",
+    "source": "open",
+    "kind": "heritage",
+    "parentId": "supplicant",
+    "level": 0,
+    "description": "You have proficiency in either the Insight or Persuasion skill. When a creature within 30 feet of you spends Doom, you have advantage on ability checks and saves until the beginning of your next turn."
+  },
+  {
+    "id": "wildlands-beast-affinity",
+    "name": "Beast Affinity",
+    "source": "open",
+    "kind": "heritage",
+    "parentId": "wildlands",
+    "level": 0,
+    "description": "Using gestures and sounds, you can communicate simple ideas with Beasts and creatures with the Animal tag, and you have advantage on checks made to interact with such creatures."
+  },
+  {
+    "id": "wildlands-shepherds-gift",
+    "name": "Shepherd's Gift",
+    "source": "open",
+    "kind": "heritage",
+    "parentId": "wildlands",
+    "level": 0,
+    "description": "You have proficiency in the Animal Handling skill. Any Beast or creature with the Animal tag whose CR is equal to or less than your PB that targets you with an attack must first make a check contested by your . If you succeed, the creature must choose a new target or lose the attack."
+  }
+]

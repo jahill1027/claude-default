@@ -34,3 +34,4 @@ coverage
 
 # Source PDFs (personal reference material — never commit proprietary content)
 *.pdf
+.cache/

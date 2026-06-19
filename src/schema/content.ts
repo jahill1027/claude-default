@@ -83,6 +83,22 @@ export const subclassDefSchema = z.object({
 });
 export type SubclassDef = z.infer<typeof subclassDefSchema>;
 
+/**
+ * A discrete class/subclass/lineage/heritage feature. Referenced by id from
+ * class progression tables, subclass featuresByLevel, and lineage/heritage
+ * trait lists so the rules text can be shown when the feature is gained.
+ */
+export const featureDefSchema = z.object({
+  ...contentBase,
+  kind: z.enum(['class', 'subclass', 'lineage', 'heritage']),
+  /** Id of the class/subclass/lineage/heritage that grants this feature. */
+  parentId: z.string().min(1),
+  /** Level at which it is gained (class/subclass features); omitted otherwise. */
+  level: z.number().int().min(0).max(20).optional(),
+  description: z.string().default(''),
+});
+export type FeatureDef = z.infer<typeof featureDefSchema>;
+
 export const lineageDefSchema = z.object({
   ...contentBase,
   size: z.enum(['Small', 'Medium']),
@@ -90,6 +106,7 @@ export const lineageDefSchema = z.object({
   /** Lifespan / flavor note. */
   lifespan: z.string().optional(),
   traits: z.array(z.string()).default([]),
+  description: z.string().optional(),
 });
 export type LineageDef = z.infer<typeof lineageDefSchema>;
 
@@ -98,16 +115,22 @@ export const heritageDefSchema = z.object({
   skillProficiencies: z.array(z.string()).default([]),
   languages: z.array(z.string()).default([]),
   trait: z.string().optional(),
+  description: z.string().optional(),
 });
 export type HeritageDef = z.infer<typeof heritageDefSchema>;
 
 export const backgroundDefSchema = z.object({
   ...contentBase,
   skillProficiencies: z.array(z.string()).default([]),
+  /** Choose-N skills when the background offers a choice. */
+  skillChoices: z
+    .object({ choose: z.number().int().min(0), from: z.array(z.string()) })
+    .optional(),
   /** A background grants one talent in ToV. */
   grantedTalent: z.string().optional(),
   languages: z.array(z.string()).default([]),
   equipment: z.array(z.string()).default([]),
+  description: z.string().optional(),
 });
 export type BackgroundDef = z.infer<typeof backgroundDefSchema>;
 

@@ -1,0 +1,2447 @@
+[
+  {
+    "id": "barbarian",
+    "name": "Barbarian",
+    "source": "open",
+    "hitDie": 12,
+    "primaryAbilities": [
+      "str"
+    ],
+    "savingThrowProficiencies": [
+      "con",
+      "str"
+    ],
+    "skillChoices": {
+      "choose": 2,
+      "from": [
+        "animalHandling",
+        "athletics",
+        "intimidation",
+        "nature",
+        "perception",
+        "survival"
+      ]
+    },
+    "progressionTable": [
+      {
+        "level": 1,
+        "proficiencyBonus": 2,
+        "features": [
+          "barbarian-rage",
+          "barbarian-unarmored-defense"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 2,
+        "proficiencyBonus": 2,
+        "features": [
+          "barbarian-danger-sense",
+          "barbarian-reckless-attack"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 3,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": true,
+        "asiOrTalent": false
+      },
+      {
+        "level": 4,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 5,
+        "proficiencyBonus": 3,
+        "features": [
+          "barbarian-fast-movement",
+          "barbarian-multiattack"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 6,
+        "proficiencyBonus": 3,
+        "features": [
+          "barbarian-feral-instinct"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 7,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 8,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 9,
+        "proficiencyBonus": 4,
+        "features": [
+          "barbarian-brutal-critical"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 10,
+        "proficiencyBonus": 4,
+        "features": [
+          "barbarian-heroic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 11,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 12,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 13,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 14,
+        "proficiencyBonus": 5,
+        "features": [
+          "barbarian-relentless-rage"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 15,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 16,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 17,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 18,
+        "proficiencyBonus": 6,
+        "features": [
+          "barbarian-unyielding-might"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 19,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 20,
+        "proficiencyBonus": 6,
+        "features": [
+          "barbarian-epic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      }
+    ],
+    "equipmentKit": [],
+    "spellcasting": "none",
+    "summary": "Ferocious warriors who harness primal power."
+  },
+  {
+    "id": "bard",
+    "name": "Bard",
+    "source": "open",
+    "hitDie": 8,
+    "primaryAbilities": [
+      "cha"
+    ],
+    "savingThrowProficiencies": [
+      "cha",
+      "dex"
+    ],
+    "skillChoices": {
+      "choose": 3,
+      "from": [
+        "*"
+      ]
+    },
+    "progressionTable": [
+      {
+        "level": 1,
+        "proficiencyBonus": 2,
+        "features": [
+          "bard-spellcasting",
+          "bard-bardic-inspiration"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 2,
+        "proficiencyBonus": 2,
+        "features": [
+          "bard-expertise",
+          "bard-bardic-performance"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 3,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": true,
+        "asiOrTalent": false
+      },
+      {
+        "level": 4,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 5,
+        "proficiencyBonus": 3,
+        "features": [
+          "bard-font-of-inspiration"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 6,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 7,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 8,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 9,
+        "proficiencyBonus": 4,
+        "features": [
+          "bard-magical-secrets"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 10,
+        "proficiencyBonus": 4,
+        "features": [
+          "bard-heroic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 11,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 12,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 13,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 14,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 15,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 16,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 17,
+        "proficiencyBonus": 6,
+        "features": [
+          "bard-grand-performance"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 18,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 19,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 20,
+        "proficiencyBonus": 6,
+        "features": [
+          "bard-epic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      }
+    ],
+    "equipmentKit": [],
+    "spellcasting": "full",
+    "spellcastingAbility": "cha",
+    "summary": "Skilled performers who inspire allies and wield Arcane magic."
+  },
+  {
+    "id": "cleric",
+    "name": "Cleric",
+    "source": "open",
+    "hitDie": 8,
+    "primaryAbilities": [
+      "wis"
+    ],
+    "savingThrowProficiencies": [
+      "cha",
+      "wis"
+    ],
+    "skillChoices": {
+      "choose": 2,
+      "from": [
+        "history",
+        "insight",
+        "medicine",
+        "persuasion",
+        "religion"
+      ]
+    },
+    "progressionTable": [
+      {
+        "level": 1,
+        "proficiencyBonus": 2,
+        "features": [
+          "cleric-spellcasting",
+          "cleric-manifestation-of-faith"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 2,
+        "proficiencyBonus": 2,
+        "features": [
+          "cleric-channel-divinity"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 3,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": true,
+        "asiOrTalent": false
+      },
+      {
+        "level": 4,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 5,
+        "proficiencyBonus": 3,
+        "features": [
+          "cleric-destroy-the-profane"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 6,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 7,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 8,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 9,
+        "proficiencyBonus": 4,
+        "features": [
+          "cleric-divine-intervention"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 10,
+        "proficiencyBonus": 4,
+        "features": [
+          "cleric-heroic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 11,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 12,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 13,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 14,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 15,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 16,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 17,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 18,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 19,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 20,
+        "proficiencyBonus": 6,
+        "features": [
+          "cleric-epic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      }
+    ],
+    "equipmentKit": [],
+    "spellcasting": "full",
+    "spellcastingAbility": "wis",
+    "summary": "Faithful casters who wield Divine magic."
+  },
+  {
+    "id": "druid",
+    "name": "Druid",
+    "source": "open",
+    "hitDie": 8,
+    "primaryAbilities": [
+      "wis"
+    ],
+    "savingThrowProficiencies": [
+      "int",
+      "wis"
+    ],
+    "skillChoices": {
+      "choose": 2,
+      "from": [
+        "animalHandling",
+        "arcana",
+        "insight",
+        "medicine",
+        "nature",
+        "perception",
+        "religion",
+        "survival"
+      ]
+    },
+    "progressionTable": [
+      {
+        "level": 1,
+        "proficiencyBonus": 2,
+        "features": [
+          "druid-spellcasting",
+          "druid-druidic",
+          "druid-natures-gift"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 2,
+        "proficiencyBonus": 2,
+        "features": [
+          "druid-wild-shape"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 3,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": true,
+        "asiOrTalent": false
+      },
+      {
+        "level": 4,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 5,
+        "proficiencyBonus": 3,
+        "features": [
+          "druid-improved-beast-form"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 6,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 7,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 8,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 9,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 10,
+        "proficiencyBonus": 4,
+        "features": [
+          "druid-heroic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 11,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 12,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 13,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 14,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 15,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 16,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 17,
+        "proficiencyBonus": 6,
+        "features": [
+          "druid-natures-grace"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 18,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 19,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 20,
+        "proficiencyBonus": 6,
+        "features": [
+          "druid-epic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      }
+    ],
+    "equipmentKit": [],
+    "spellcasting": "full",
+    "spellcastingAbility": "wis",
+    "summary": "Guardians of nature who wield Primordial magic."
+  },
+  {
+    "id": "fighter",
+    "name": "Fighter",
+    "source": "open",
+    "hitDie": 10,
+    "primaryAbilities": [
+      "str",
+      "dex"
+    ],
+    "savingThrowProficiencies": [
+      "con",
+      "str"
+    ],
+    "skillChoices": {
+      "choose": 2,
+      "from": [
+        "acrobatics",
+        "animalHandling",
+        "athletics",
+        "history",
+        "insight",
+        "intimidation",
+        "perception",
+        "survival"
+      ]
+    },
+    "progressionTable": [
+      {
+        "level": 1,
+        "proficiencyBonus": 2,
+        "features": [
+          "fighter-last-stand",
+          "fighter-martial-action"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 2,
+        "proficiencyBonus": 2,
+        "features": [
+          "fighter-action-surge"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 3,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": true,
+        "asiOrTalent": false
+      },
+      {
+        "level": 4,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 5,
+        "proficiencyBonus": 3,
+        "features": [
+          "fighter-multiattack"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 6,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 7,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 8,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 9,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 10,
+        "proficiencyBonus": 4,
+        "features": [
+          "fighter-heroic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 11,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 12,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 13,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 14,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 15,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 16,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 17,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 18,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 19,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 20,
+        "proficiencyBonus": 6,
+        "features": [
+          "fighter-epic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      }
+    ],
+    "equipmentKit": [],
+    "spellcasting": "none",
+    "summary": "Hardy adventurers who excel in combat and weapon-use."
+  },
+  {
+    "id": "mechanist",
+    "name": "Mechanist",
+    "source": "open",
+    "hitDie": 10,
+    "primaryAbilities": [
+      "int"
+    ],
+    "savingThrowProficiencies": [
+      "con",
+      "int"
+    ],
+    "skillChoices": {
+      "choose": 2,
+      "from": [
+        "arcana",
+        "history",
+        "investigation",
+        "perception",
+        "sleightOfHand"
+      ]
+    },
+    "progressionTable": [
+      {
+        "level": 1,
+        "proficiencyBonus": 2,
+        "features": [
+          "mechanist-eyes-of-the-maker",
+          "mechanist-shard-of-creation"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 2,
+        "proficiencyBonus": 2,
+        "features": [
+          "mechanist-augment",
+          "mechanist-efficient-action"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 3,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": true,
+        "asiOrTalent": false
+      },
+      {
+        "level": 4,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 5,
+        "proficiencyBonus": 3,
+        "features": [
+          "mechanist-multiattack"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 6,
+        "proficiencyBonus": 3,
+        "features": [
+          "mechanist-rapid-augment"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 7,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 8,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 9,
+        "proficiencyBonus": 4,
+        "features": [
+          "mechanist-greater-creation"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 10,
+        "proficiencyBonus": 4,
+        "features": [
+          "mechanist-heroic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 11,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 12,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 13,
+        "proficiencyBonus": 5,
+        "features": [
+          "mechanist-engineers-insight"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 14,
+        "proficiencyBonus": 5,
+        "features": [
+          "mechanist-ranged-augment"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 15,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 16,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 17,
+        "proficiencyBonus": 6,
+        "features": [
+          "mechanist-always-prepared"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 18,
+        "proficiencyBonus": 6,
+        "features": [
+          "mechanist-perfect-creation"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 19,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 20,
+        "proficiencyBonus": 6,
+        "features": [
+          "mechanist-epic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      }
+    ],
+    "equipmentKit": [],
+    "spellcasting": "none",
+    "summary": "Crafty engineers who sculpt mystic forces into items."
+  },
+  {
+    "id": "monk",
+    "name": "Monk",
+    "source": "open",
+    "hitDie": 8,
+    "primaryAbilities": [
+      "dex",
+      "wis"
+    ],
+    "savingThrowProficiencies": [
+      "dex",
+      "str"
+    ],
+    "skillChoices": {
+      "choose": 2,
+      "from": [
+        "acrobatics",
+        "athletics",
+        "history",
+        "insight",
+        "religion",
+        "stealth"
+      ]
+    },
+    "progressionTable": [
+      {
+        "level": 1,
+        "proficiencyBonus": 2,
+        "features": [
+          "monk-martial-arts",
+          "monk-unarmored-defense"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 2,
+        "proficiencyBonus": 2,
+        "features": [
+          "monk-techniques",
+          "monk-unarmored-movement"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 3,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": true,
+        "asiOrTalent": false
+      },
+      {
+        "level": 4,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 5,
+        "proficiencyBonus": 3,
+        "features": [
+          "monk-multiattack",
+          "monk-technique-stunning-strike"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 6,
+        "proficiencyBonus": 3,
+        "features": [
+          "monk-empowered-strikes",
+          "monk-evasion"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 7,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 8,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 9,
+        "proficiencyBonus": 4,
+        "features": [
+          "monk-perfect-motion"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 10,
+        "proficiencyBonus": 4,
+        "features": [
+          "monk-heroic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 11,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 12,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 13,
+        "proficiencyBonus": 5,
+        "features": [
+          "monk-astral-teachings"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 14,
+        "proficiencyBonus": 5,
+        "features": [
+          "monk-diamond-soul"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 15,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 16,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 17,
+        "proficiencyBonus": 6,
+        "features": [
+          "monk-timeless-self"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 18,
+        "proficiencyBonus": 6,
+        "features": [
+          "monk-empty-body"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 19,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 20,
+        "proficiencyBonus": 6,
+        "features": [
+          "monk-epic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      }
+    ],
+    "equipmentKit": [],
+    "spellcasting": "none",
+    "summary": "Martial artists who harness mystical energy."
+  },
+  {
+    "id": "paladin",
+    "name": "Paladin",
+    "source": "open",
+    "hitDie": 10,
+    "primaryAbilities": [
+      "str",
+      "cha"
+    ],
+    "savingThrowProficiencies": [
+      "cha",
+      "wis"
+    ],
+    "skillChoices": {
+      "choose": 2,
+      "from": [
+        "athletics",
+        "insight",
+        "intimidation",
+        "medicine",
+        "persuasion",
+        "religion"
+      ]
+    },
+    "progressionTable": [
+      {
+        "level": 1,
+        "proficiencyBonus": 2,
+        "features": [
+          "paladin-divine-sense",
+          "paladin-lay-on-hands"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 2,
+        "proficiencyBonus": 2,
+        "features": [
+          "paladin-divine-smite",
+          "paladin-martial-action",
+          "paladin-spellcasting"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 3,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": true,
+        "asiOrTalent": false
+      },
+      {
+        "level": 4,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 5,
+        "proficiencyBonus": 3,
+        "features": [
+          "paladin-multiattack"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 6,
+        "proficiencyBonus": 3,
+        "features": [
+          "paladin-aura-of-protection"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 7,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 8,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 9,
+        "proficiencyBonus": 4,
+        "features": [
+          "paladin-aura-of-courage"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 10,
+        "proficiencyBonus": 4,
+        "features": [
+          "paladin-heroic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 11,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 12,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 13,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 14,
+        "proficiencyBonus": 5,
+        "features": [
+          "paladin-cleansing-touch"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 15,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 16,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 17,
+        "proficiencyBonus": 6,
+        "features": [
+          "paladin-aura-improvements"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 18,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 19,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 20,
+        "proficiencyBonus": 6,
+        "features": [
+          "paladin-epic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      }
+    ],
+    "equipmentKit": [],
+    "spellcasting": "half",
+    "spellcastingAbility": "cha",
+    "summary": "Holy warriors who smite foes with Divine power."
+  },
+  {
+    "id": "ranger",
+    "name": "Ranger",
+    "source": "open",
+    "hitDie": 10,
+    "primaryAbilities": [
+      "dex",
+      "wis"
+    ],
+    "savingThrowProficiencies": [
+      "dex",
+      "str"
+    ],
+    "skillChoices": {
+      "choose": 3,
+      "from": [
+        "animalHandling",
+        "athletics",
+        "insight",
+        "investigation",
+        "nature",
+        "perception",
+        "stealth",
+        "survival"
+      ]
+    },
+    "progressionTable": [
+      {
+        "level": 1,
+        "proficiencyBonus": 2,
+        "features": [
+          "ranger-explorer",
+          "ranger-mystic-mark"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 2,
+        "proficiencyBonus": 2,
+        "features": [
+          "ranger-martial-action",
+          "ranger-spellcasting"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 3,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": true,
+        "asiOrTalent": false
+      },
+      {
+        "level": 4,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 5,
+        "proficiencyBonus": 3,
+        "features": [
+          "ranger-multiattack"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 6,
+        "proficiencyBonus": 3,
+        "features": [
+          "ranger-empowered-mark"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 7,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 8,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 9,
+        "proficiencyBonus": 4,
+        "features": [
+          "ranger-stalkers-step"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 10,
+        "proficiencyBonus": 4,
+        "features": [
+          "ranger-heroic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 11,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 12,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 13,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 14,
+        "proficiencyBonus": 5,
+        "features": [
+          "ranger-keensense"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 15,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 16,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 17,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 18,
+        "proficiencyBonus": 6,
+        "features": [
+          "ranger-strider"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 19,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 20,
+        "proficiencyBonus": 6,
+        "features": [
+          "ranger-epic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      }
+    ],
+    "equipmentKit": [],
+    "spellcasting": "half",
+    "spellcastingAbility": "wis",
+    "summary": "Resourceful survivalists with a mystic connection to nature."
+  },
+  {
+    "id": "rogue",
+    "name": "Rogue",
+    "source": "open",
+    "hitDie": 8,
+    "primaryAbilities": [
+      "dex"
+    ],
+    "savingThrowProficiencies": [
+      "dex",
+      "int"
+    ],
+    "skillChoices": {
+      "choose": 4,
+      "from": [
+        "acrobatics",
+        "athletics",
+        "deception",
+        "insight",
+        "intimidation",
+        "investigation",
+        "perception",
+        "performance",
+        "persuasion",
+        "sleightOfHand",
+        "stealth"
+      ]
+    },
+    "progressionTable": [
+      {
+        "level": 1,
+        "proficiencyBonus": 2,
+        "features": [
+          "rogue-expertise",
+          "rogue-sneak-attack",
+          "rogue-thieves-cant"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 2,
+        "proficiencyBonus": 2,
+        "features": [
+          "rogue-cunning-action"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 3,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": true,
+        "asiOrTalent": false
+      },
+      {
+        "level": 4,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 5,
+        "proficiencyBonus": 3,
+        "features": [
+          "rogue-uncanny-dodge"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 6,
+        "proficiencyBonus": 3,
+        "features": [
+          "rogue-evasion"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 7,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 8,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 9,
+        "proficiencyBonus": 4,
+        "features": [
+          "rogue-reliable-talent"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 10,
+        "proficiencyBonus": 4,
+        "features": [
+          "rogue-heroic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 11,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 12,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 13,
+        "proficiencyBonus": 5,
+        "features": [
+          "rogue-precise-critical"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 14,
+        "proficiencyBonus": 5,
+        "features": [
+          "rogue-keensense"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 15,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 16,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 17,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 18,
+        "proficiencyBonus": 6,
+        "features": [
+          "rogue-elusive"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 19,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 20,
+        "proficiencyBonus": 6,
+        "features": [
+          "rogue-epic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      }
+    ],
+    "equipmentKit": [],
+    "spellcasting": "none",
+    "summary": "Cunning adventurers who rely on agility and trickery."
+  },
+  {
+    "id": "sorcerer",
+    "name": "Sorcerer",
+    "source": "open",
+    "hitDie": 6,
+    "primaryAbilities": [
+      "cha"
+    ],
+    "savingThrowProficiencies": [
+      "cha",
+      "con"
+    ],
+    "skillChoices": {
+      "choose": 2,
+      "from": [
+        "arcana",
+        "deception",
+        "insight",
+        "intimidation",
+        "persuasion",
+        "religion"
+      ]
+    },
+    "progressionTable": [
+      {
+        "level": 1,
+        "proficiencyBonus": 2,
+        "features": [
+          "sorcerer-font-of-magic",
+          "sorcerer-spellcasting"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 2,
+        "proficiencyBonus": 2,
+        "features": [
+          "sorcerer-metamagic"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 3,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": true,
+        "asiOrTalent": false
+      },
+      {
+        "level": 4,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 5,
+        "proficiencyBonus": 3,
+        "features": [
+          "sorcerer-sorcerous-renewal"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 6,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 7,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 8,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 9,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 10,
+        "proficiencyBonus": 4,
+        "features": [
+          "sorcerer-heroic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 11,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 12,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 13,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 14,
+        "proficiencyBonus": 5,
+        "features": [
+          "sorcerer-devour-spell"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 15,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 16,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 17,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 18,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 19,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 20,
+        "proficiencyBonus": 6,
+        "features": [
+          "sorcerer-epic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      }
+    ],
+    "equipmentKit": [],
+    "spellcasting": "full",
+    "spellcastingAbility": "cha",
+    "summary": "Powerful casters who channel raw Arcane power from within."
+  },
+  {
+    "id": "warlock",
+    "name": "Warlock",
+    "source": "open",
+    "hitDie": 8,
+    "primaryAbilities": [
+      "cha"
+    ],
+    "savingThrowProficiencies": [
+      "cha",
+      "wis"
+    ],
+    "skillChoices": {
+      "choose": 2,
+      "from": [
+        "arcana",
+        "history",
+        "intimidation",
+        "investigation",
+        "nature",
+        "religion"
+      ]
+    },
+    "progressionTable": [
+      {
+        "level": 1,
+        "proficiencyBonus": 2,
+        "features": [
+          "warlock-eldritch-blast",
+          "warlock-pact-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 2,
+        "proficiencyBonus": 2,
+        "features": [
+          "warlock-eldritch-invocations",
+          "warlock-spellcasting"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 3,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": true,
+        "asiOrTalent": false
+      },
+      {
+        "level": 4,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 5,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 6,
+        "proficiencyBonus": 3,
+        "features": [
+          "warlock-enhanced-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 7,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 8,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 9,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 10,
+        "proficiencyBonus": 4,
+        "features": [
+          "warlock-heroic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 11,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 12,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 13,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 14,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 15,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 16,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 17,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 18,
+        "proficiencyBonus": 6,
+        "features": [
+          "warlock-patrons-favor"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 19,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 20,
+        "proficiencyBonus": 6,
+        "features": [
+          "warlock-epic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      }
+    ],
+    "equipmentKit": [],
+    "spellcasting": "half",
+    "spellcastingAbility": "cha",
+    "summary": "Supernatural casters who draw magic from Wyrd forces."
+  },
+  {
+    "id": "wizard",
+    "name": "Wizard",
+    "source": "open",
+    "hitDie": 6,
+    "primaryAbilities": [
+      "int"
+    ],
+    "savingThrowProficiencies": [
+      "int",
+      "wis"
+    ],
+    "skillChoices": {
+      "choose": 2,
+      "from": [
+        "arcana",
+        "history",
+        "insight",
+        "investigation",
+        "medicine",
+        "religion"
+      ]
+    },
+    "progressionTable": [
+      {
+        "level": 1,
+        "proficiencyBonus": 2,
+        "features": [
+          "wizard-arcane-recovery",
+          "wizard-spellcasting"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 2,
+        "proficiencyBonus": 2,
+        "features": [
+          "wizard-magic-sense"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 3,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": true,
+        "asiOrTalent": false
+      },
+      {
+        "level": 4,
+        "proficiencyBonus": 2,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 5,
+        "proficiencyBonus": 3,
+        "features": [
+          "wizard-rote-spell"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 6,
+        "proficiencyBonus": 3,
+        "features": [
+          "wizard-superior-recovery"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 7,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 8,
+        "proficiencyBonus": 3,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 9,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 10,
+        "proficiencyBonus": 4,
+        "features": [
+          "wizard-heroic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 11,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 12,
+        "proficiencyBonus": 4,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 13,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 14,
+        "proficiencyBonus": 5,
+        "features": [
+          "wizard-spellguard"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 15,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 16,
+        "proficiencyBonus": 5,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 17,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 18,
+        "proficiencyBonus": 6,
+        "features": [
+          "wizard-spell-mastery"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      },
+      {
+        "level": 19,
+        "proficiencyBonus": 6,
+        "features": [],
+        "subclassChoice": false,
+        "asiOrTalent": true
+      },
+      {
+        "level": 20,
+        "proficiencyBonus": 6,
+        "features": [
+          "wizard-epic-boon"
+        ],
+        "subclassChoice": false,
+        "asiOrTalent": false
+      }
+    ],
+    "equipmentKit": [],
+    "spellcasting": "full",
+    "spellcastingAbility": "int",
+    "summary": "Cerebral casters who wield Arcane magic."
+  }
+]

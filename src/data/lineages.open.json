@@ -1,0 +1,78 @@
+[
+  {
+    "id": "beastkin",
+    "name": "Beastkin",
+    "source": "open",
+    "size": "Medium",
+    "speed": 30,
+    "traits": [
+      "beastkin-animal-instinct",
+      "beastkin-natural-weapons",
+      "beastkin-natural-adaptation"
+    ],
+    "description": "Your beastkin character has the following hereditary traits.\nAge. Beastkin mature far more quickly than most Humanoids, reaching adulthood within 5 years. Though they may live nearly a century, some beastkin live only 20 or 30 years.\nSize\nSpeed. Your base walking speed is 30 feet.\nAnimal Instinct\nNatural Weapons\nNatural Adaptation"
+  },
+  {
+    "id": "dwarf",
+    "name": "Dwarf",
+    "source": "open",
+    "size": "Medium",
+    "speed": 30,
+    "traits": [
+      "dwarf-darkvision",
+      "dwarf-dwarven-resilience",
+      "dwarf-dwarven-toughness"
+    ],
+    "description": "Your dwarf character has the following hereditary traits.\nAge. Dwarves are physically mature around age 20, but most consider themselves young until they reach age 50. On average, they live about 350 years.\nSize\nSpeed. Your base walking speed is 30 feet.\nDarkvision\nDwarven Resilience\nDwarven Toughness"
+  },
+  {
+    "id": "elf",
+    "name": "Elf",
+    "source": "open",
+    "size": "Medium",
+    "speed": 30,
+    "traits": [
+      "elf-heightened-senses",
+      "elf-magic-ancestry",
+      "elf-trance"
+    ],
+    "description": "Your elf character has the following hereditary traits.\nAge. Although elves reach physical maturity around age 20, mental and emotional faculties reach full maturity around the age of 100. Elves can live to be 750 years old.\nSize\nSpeed. Your base walking speed is 30 feet.\nHeightened Senses\nMagic Ancestry\nTrance"
+  },
+  {
+    "id": "human",
+    "name": "Human",
+    "source": "open",
+    "size": "Medium",
+    "speed": 30,
+    "traits": [
+      "human-ambitious"
+    ],
+    "description": "Your human character has the following hereditary traits.\nAge. Humans reach adulthood in their late teenage years and rarely live to be more than 100 years old.\nSize\nSpeed. Your base walking speed is 30 feet.\nAmbitious"
+  },
+  {
+    "id": "orc",
+    "name": "Orc",
+    "source": "open",
+    "size": "Medium",
+    "speed": 30,
+    "traits": [
+      "orc-orcish-perseverance",
+      "orc-heightened-senses",
+      "orc-stalwart"
+    ],
+    "description": "Your orc character has the following hereditary traits.\nAge. Orcs reach adulthood within two decades and seldom live longer than 60 years. However, orcs remain in their prime for most of their lives, undergoing few physical changes or signs of aging between adulthood and the end of their natural lifespan.\nSize\nSpeed. Your base walking speed is 30 feet.\nOrcish Perseverance\nHeightened Senses\nStalwart"
+  },
+  {
+    "id": "smallfolk",
+    "name": "Smallfolk",
+    "source": "open",
+    "size": "Small",
+    "speed": 30,
+    "traits": [
+      "smallfolk-grounded",
+      "smallfolk-small-stature",
+      "smallfolk-natural-adaptation"
+    ],
+    "description": "Your smallfolk character has the following hereditary traits.\nAge. Smallfolk reach adulthood around 20 and typically live to be around 150 years old, though gnomes sometimes live twice as long.\nSize\nSpeed. Your base walking speed is 30 feet.\nGrounded\nSmall Stature\nNatural Adaptation"
+  }
+]

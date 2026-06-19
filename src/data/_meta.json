@@ -1,0 +1,16 @@
+{
+  "sourceRepo": "koboldpress/black-flag",
+  "commit": "e841061e72406968943f06a7e7410b9c49d825fc",
+  "systemVersion": "3.0.075",
+  "generatedAt": "2026-06-19T04:03:23.842Z",
+  "counts": {
+    "classes": 13,
+    "subclasses": 14,
+    "features": 238,
+    "lineages": 6,
+    "heritages": 9,
+    "backgrounds": 3,
+    "talents": 33
+  },
+  "note": "Open BFRD content (CC-BY 4.0 / ORC). Spells deferred to M7; equipment to M3. Proprietary content lives in *.proprietary.json."
+}

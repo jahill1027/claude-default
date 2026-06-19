@@ -1,0 +1,58 @@
+[
+  {
+    "id": "criminal",
+    "name": "Criminal",
+    "source": "open",
+    "skillProficiencies": [],
+    "skillChoices": {
+      "choose": 2,
+      "from": [
+        "deception",
+        "insight",
+        "investigation",
+        "stealth"
+      ]
+    },
+    "languages": [
+      "secret:thievesCant"
+    ],
+    "equipment": [],
+    "description": "Skill Proficiencies\nAdditional Proficiencies\nEquipment\nTalent"
+  },
+  {
+    "id": "scholar",
+    "name": "Scholar",
+    "source": "open",
+    "skillProficiencies": [],
+    "skillChoices": {
+      "choose": 2,
+      "from": [
+        "arcana",
+        "history",
+        "nature",
+        "religion"
+      ]
+    },
+    "languages": [],
+    "equipment": [],
+    "description": "Skill Proficiencies\nAdditional Proficiencies\nEquipment\nTalent"
+  },
+  {
+    "id": "soldier",
+    "name": "Soldier",
+    "source": "open",
+    "skillProficiencies": [],
+    "skillChoices": {
+      "choose": 2,
+      "from": [
+        "animalHandling",
+        "athletics",
+        "medicine",
+        "survival"
+      ]
+    },
+    "languages": [],
+    "equipment": [],
+    "description": "Skill Proficiencies\nAdditional Proficiencies\nEquipment\nTalent"
+  }
+]

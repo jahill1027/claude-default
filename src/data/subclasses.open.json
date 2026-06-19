@@ -1,0 +1,315 @@
+[
+  {
+    "id": "berserker",
+    "name": "Berserker",
+    "source": "open",
+    "classId": "barbarian",
+    "featuresByLevel": {
+      "3": [
+        "berserker-frenzy",
+        "berserker-ruthless-bearing"
+      ],
+      "7": [
+        "berserker-mindless-rage"
+      ],
+      "11": [
+        "berserker-intimidating-presence"
+      ],
+      "15": [
+        "berserker-retaliation"
+      ]
+    },
+    "summary": "Through primal rite or natural bloodthirst, some barbarians can work themselves into a rage so ferocious and explosively violent that it risks breaking their bodies. Berserkers may lose themselves in their frenzy, seething with raw brutality, embracing the blood-soaked battlefield, uncaring of their own safety."
+  },
+  {
+    "id": "lore",
+    "name": "Lore",
+    "source": "open",
+    "classId": "bard",
+    "featuresByLevel": {
+      "3": [
+        "lore-bardic-performance",
+        "lore-jack-of-all-trades"
+      ],
+      "7": [
+        "lore-swift-ritual"
+      ],
+      "11": [
+        "lore-magical-rites"
+      ],
+      "15": [
+        "lore-peerless-skill"
+      ]
+    },
+    "summary": "Bards who align with the college of Lore value knowledge most highly. Many from this college are preoccupied with preserving ancient rituals, folklore, and stories—or recovering such things that were lost. These bards glean wisdom from all manner of cultures and sources, allowing them to utilize their magic and talents in novel ways."
+  },
+  {
+    "id": "life-domain",
+    "name": "Life Domain",
+    "source": "open",
+    "classId": "cleric",
+    "featuresByLevel": {
+      "3": [
+        "life-domain-channel-divinity-preserve-life",
+        "life-domain-disciple-of-life",
+        "life-domain-life-domain-spells"
+      ],
+      "7": [
+        "life-domain-blessed-healer"
+      ],
+      "11": [
+        "life-domain-greater-preservation"
+      ],
+      "15": [
+        "life-domain-perfect-healing"
+      ]
+    },
+    "summary": "Gods of the Life domain celebrate natural cycles of life and death, exemplifying health and vitality. Devotees of this domain are encouraged to heal the wounded, care for the sick, and oppose the perversion of undeath."
+  },
+  {
+    "id": "war-domain",
+    "name": "War Domain",
+    "source": "open",
+    "classId": "cleric",
+    "featuresByLevel": {
+      "3": [
+        "war-domain-channel-divinity-mark-of-thiumph",
+        "war-domain-disciple-of-war",
+        "war-domain-war-domain-spells"
+      ],
+      "7": [
+        "war-domain-blessed-warrior"
+      ],
+      "11": [
+        "war-domain-greater-triumph"
+      ],
+      "15": [
+        "war-domain-holy-strike"
+      ]
+    },
+    "summary": "Gods of the War Domain celebrate strength, reveling in the glory of victory and the thrill of competition. Gods with evil or chaotic proclivities emphasize the destruction and violence of war, but such gods are primarily worshipped by villainous factions. Most societies and heroic characters worship war gods who honor courage, demand excellence on the field of battle, and reward those who take up arms when the need is great."
+  },
+  {
+    "id": "shifter",
+    "name": "Shifter",
+    "source": "open",
+    "classId": "druid",
+    "featuresByLevel": {
+      "3": [
+        "shifter-potent-forms",
+        "shifter-quick-shift",
+        "shifter-shifter-ring-spells"
+      ],
+      "7": [
+        "shifter-beasts-fury"
+      ],
+      "11": [
+        "shifter-elemental-infusion"
+      ],
+      "15": [
+        "shifter-manifold-mind"
+      ]
+    },
+    "summary": "Druids that align with the ring of the Shifter feel a deep connection to the animals that walk the world. Shifters delve into the mysteries of transformation, spending much of their time in the forms of the beasts they so admire. To you, there is no greater joy than feeling wind beneath your wings, stalking prey on padded paws, or swimming through crystalline depths."
+  },
+  {
+    "id": "weapon-master",
+    "name": "Weapon Master",
+    "source": "open",
+    "classId": "fighter",
+    "featuresByLevel": {
+      "3": [
+        "weapon-master-mastery",
+        "weapon-master-stunts"
+      ],
+      "7": [
+        "weapon-master-deadly-flourish"
+      ],
+      "11": [
+        "weapon-master-advanced-stunts"
+      ],
+      "15": [
+        "weapon-master-grand-finale"
+      ]
+    },
+    "summary": "Most fighters feel a deep connection to their weapons, but none more so than the Weapon Master. For them, a favored bow or blade is a natural extension of their body and a trusted ally. Fighters who pursue this subclass learn to use their chosen arms with efficiency and artistry."
+  },
+  {
+    "id": "metallurgist",
+    "name": "Metallurgist",
+    "source": "open",
+    "classId": "mechanist",
+    "featuresByLevel": {
+      "3": [
+        "metallurgist-augment-absorbing",
+        "metallurgist-mystic-metal"
+      ],
+      "7": [
+        "metallurgist-heavy-hitter"
+      ],
+      "11": [
+        "metallurgist-juggernaut"
+      ],
+      "15": [
+        "metallurgist-full-metal"
+      ]
+    },
+    "summary": "Mechanists who pursue the Metallurgist’s craft delight in the thrill of combat and engineered armaments. Metallurgist creations are awesome to behold in battle, though few enemies live to spread tales of their terrifying metal mechanisms."
+  },
+  {
+    "id": "open-hand",
+    "name": "Open Hand",
+    "source": "open",
+    "classId": "monk",
+    "featuresByLevel": {
+      "3": [
+        "open-hand-focus-intent",
+        "open-hand-open-hand-technique"
+      ],
+      "7": [
+        "open-hand-wholeness-of-body"
+      ],
+      "11": [
+        "open-hand-tranquil-soul"
+      ],
+      "15": [
+        "open-hand-quivering-palm"
+      ]
+    },
+    "summary": "Monks of the Open Hand hone their bodies to physical perfection. They learn techniques to push and trip their opponents, practice advanced meditation to protect them from harm, and develop secret techniques to transform their bodies into the ultimate weapon."
+  },
+  {
+    "id": "devotion",
+    "name": "Devotion",
+    "source": "open",
+    "classId": "paladin",
+    "featuresByLevel": {
+      "3": [
+        "devotion-channel-divinity",
+        "devotion-devotion-oath-spells"
+      ],
+      "7": [
+        "devotion-aura-of-devotion"
+      ],
+      "11": [
+        "devotion-purity-of-spirit"
+      ],
+      "15": [
+        "devotion-holy-nimbus"
+      ]
+    },
+    "summary": "Swearing an oath of Devotion binds a paladin to the principles of duty, honor, justice, and order. These paladins define themselves as holy warriors or knights, pledged to further a righteous cause to which they devote themselves. They typically hold angels, resplendent servants of good, in high regard, often adorning their armor, shield, or weapon with their iconography."
+  },
+  {
+    "id": "hunter",
+    "name": "Hunter",
+    "source": "open",
+    "classId": "ranger",
+    "featuresByLevel": {
+      "3": [
+        "hunter-hunter-calling-spells",
+        "hunter-killer-instinct",
+        "hunter-relentless-pursuit"
+      ],
+      "7": [
+        "hunter-favored-foe"
+      ],
+      "11": [
+        "hunter-no-escape"
+      ],
+      "15": [
+        "hunter-predators-shield"
+      ]
+    },
+    "summary": "Rangers who heed the calling of the Hunter are no mere trappers or furriers. They are the last line of defense between the natural and the supernatural world. Hunters seek, stalk, and slay monstrous predators like outsiders, fiends, and undead who devastate populations with their malign magic."
+  },
+  {
+    "id": "thief",
+    "name": "Thief",
+    "source": "open",
+    "classId": "rogue",
+    "featuresByLevel": {
+      "3": [
+        "thief-fast-hands",
+        "thief-second-story-work"
+      ],
+      "7": [
+        "thief-appraising-eye"
+      ],
+      "11": [
+        "thief-trap-specialist"
+      ],
+      "15": [
+        "thief-thiefs-reflexes"
+      ]
+    },
+    "summary": "You have a reputation for quick thinking and quicker fingers. Leave throat-cutting and con-running to lesser scoundrels. You live to liberate treasures held under lock and key. The thrill of bypassing a sealed door, complex trap, or other “impassable” obstacle is the true prize—followed by the payday that comes from whatever you took."
+  },
+  {
+    "id": "draconic",
+    "name": "Draconic",
+    "source": "open",
+    "classId": "sorcerer",
+    "featuresByLevel": {
+      "3": [
+        "draconic-draconic-origin-spells",
+        "draconic-draconic-resilience",
+        "draconic-dragon-ancestor"
+      ],
+      "7": [
+        "draconic-elemental-affinity"
+      ],
+      "11": [
+        "draconic-imperious-wings"
+      ],
+      "15": [
+        "draconic-draconian-vengeance"
+      ]
+    },
+    "summary": "Through lineage, bargain, or unrequited gift, the origins of your magic lie in the preternatural power of dragons. These beings, monumental in their age, power, and size, possess unshakeable bearing, unstoppable might, and mastery over the elements of the natural world."
+  },
+  {
+    "id": "fiend",
+    "name": "Fiend",
+    "source": "open",
+    "classId": "warlock",
+    "featuresByLevel": {
+      "3": [
+        "fiend-dark-ones-blessing",
+        "fiend-fiend-pact-spells"
+      ],
+      "7": [
+        "fiend-dark-ones-own-luck"
+      ],
+      "11": [
+        "fiend-fiendish-resilience"
+      ],
+      "15": [
+        "fiend-hurl-through-hell"
+      ]
+    },
+    "summary": "Your patron is a greater fiend who holds dominion over lesser demons or devils. Fiendish patrons are uncontestably bound to the forces of evil—though the warlocks they choose rarely are. These patrons often delight in granting power to mortals, even if those mortals openly strive against their destructive aims. Whether these tendencies are exercises in corruption or serve a more nefarious design, few can say."
+  },
+  {
+    "id": "battle-mage",
+    "name": "Battle Mage",
+    "source": "open",
+    "classId": "wizard",
+    "featuresByLevel": {
+      "3": [
+        "battle-mage-spell-ward",
+        "battle-mage-tactical-caster"
+      ],
+      "7": [
+        "battle-mage-contingency-plan"
+      ],
+      "11": [
+        "battle-mage-blasting-power"
+      ],
+      "15": [
+        "battle-mage-counterstrike"
+      ]
+    },
+    "summary": "Wizards who follow the Battle Mage tradition aren't interested in theoretical musings or tedious experiments. Instead, they pursue new ways to enhance their power so that they can destroy their foes (and defend their allies) with ever-greater efficiency."
+  }
+]
