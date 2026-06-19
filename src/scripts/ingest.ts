@@ -9,7 +9,7 @@
  *
  * Run with: npm run ingest
  */
-import { writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import {
   ABILITY_MAP,
@@ -27,22 +27,28 @@ import {
   type FoundryDoc,
 } from './foundry';
 import {
+  abilityRulesSchema,
   backgroundDefSchema,
   classDefSchema,
+  equipmentDefSchema,
   featureDefSchema,
   heritageDefSchema,
   lineageDefSchema,
   progressionRowSchema,
+  skillDefSchema,
   spellcastingTypeSchema,
   subclassDefSchema,
   talentDefSchema,
   type AbilityKey,
+  type AbilityRules,
   type BackgroundDef,
   type ClassDef,
+  type EquipmentDef,
   type FeatureDef,
   type HeritageDef,
   type LineageDef,
   type ProgressionRow,
+  type SkillDef,
   type SubclassDef,
   type TalentDef,
 } from '../schema';
@@ -382,6 +388,131 @@ function extractTalents(sourceRoot: string): TalentDef[] {
   });
 }
 
+function priceString(price: any): string | undefined {
+  if (!price || price.value == null) return undefined;
+  return `${price.value} ${price.denomination ?? 'gp'}`;
+}
+
+function weightNumber(weight: any): number | undefined {
+  if (typeof weight === 'number') return weight;
+  if (weight && typeof weight.value === 'number') return weight.value;
+  return undefined;
+}
+
+function extractEquipment(sourceRoot: string): EquipmentDef[] {
+  const out: EquipmentDef[] = [];
+
+  for (const d of loadDir(path.join(sourceRoot, 'items', 'armor'))) {
+    if (d.type !== 'armor') continue;
+    const s = d.system;
+    const cat: string = s.type?.category ?? 'light';
+    const props: string[] = s.properties ?? [];
+    const dexBonus =
+      cat === 'light' ? 'full' : cat === 'medium' ? 'capped' : 'none';
+    out.push({
+      id: slug(d.name),
+      name: d.name,
+      source: 'open',
+      category: 'armor',
+      cost: priceString(s.price),
+      weight: weightNumber(s.weight),
+      armor: {
+        category: cat as 'light' | 'medium' | 'heavy' | 'shield',
+        // Shields contribute a flat +2 (stored as null base in source).
+        baseAc: cat === 'shield' ? 2 : Number(s.armor?.value ?? 10),
+        dexBonus,
+        dexCap: cat === 'medium' ? 2 : undefined,
+        stealthDisadvantage: props.includes('noisy'),
+      },
+    });
+  }
+
+  for (const d of loadDir(path.join(sourceRoot, 'items', 'weapons'))) {
+    if (d.type !== 'weapon') continue;
+    const s = d.system;
+    const dmg = s.damage ?? {};
+    const damage = dmg.denomination
+      ? `${dmg.number ?? 1}d${dmg.denomination}`
+      : '';
+    out.push({
+      id: slug(d.name),
+      name: d.name,
+      source: 'open',
+      category: 'weapon',
+      cost: priceString(s.price),
+      weight: weightNumber(s.weight),
+      weapon: {
+        damage,
+        damageType: dmg.type ?? '',
+        properties: [
+          s.type?.category,
+          s.type?.value,
+          ...(s.properties ?? []),
+        ].filter(Boolean),
+      },
+    });
+  }
+
+  return out;
+}
+
+/** Parse the skill -> ability map straight from the Foundry config source. */
+function extractSkills(repoRoot: string): SkillDef[] {
+  const text = readFileSync(
+    path.join(repoRoot, 'code', 'config', 'skills.mjs'),
+    'utf8',
+  );
+  const out: SkillDef[] = [];
+  // Each skill block: key: { abbreviation: …, ability: "…", … } (no nested braces).
+  const re = /(\w+):\s*\{[^{}]*?ability:\s*"(\w+)"/g;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(text))) {
+    const key = m[1];
+    const ability = ABILITY_MAP[m[2]];
+    if (!ability) continue;
+    // Title-case the camelCase key, keeping small joining words lowercase.
+    const label = key
+      .replace(/([A-Z])/g, ' $1')
+      .replace(/^./, (c) => c.toUpperCase())
+      .replace(/\b(Of|And|The)\b/g, (w) => w.toLowerCase())
+      .trim();
+    out.push({ key, label, ability: ability as AbilityKey });
+  }
+  return out;
+}
+
+/** Parse standard array + point-buy costs from the Foundry config source. */
+function extractAbilityRules(repoRoot: string): AbilityRules {
+  const text = readFileSync(
+    path.join(repoRoot, 'code', 'config', 'abilities.mjs'),
+    'utf8',
+  );
+  const arr = text.match(/standardArray:\s*\[([\d,\s]+)\]/);
+  const standardArray = arr
+    ? arr[1].split(',').map((n) => Number(n.trim()))
+    : [16, 14, 14, 13, 10, 8];
+
+  // Require a numeric `points:` so we hit the real config, not the JSDoc typedef
+  // (`pointBuy: {points: number, costs: {…}}`).
+  const pointBuyBlock = text.match(
+    /pointBuy:\s*\{\s*points:\s*\d+,\s*costs:\s*\{([\s\S]*?)\}/,
+  );
+  const points = Number(text.match(/points:\s*(\d+)/)?.[1] ?? 32);
+  const costsBlock = pointBuyBlock?.[1] ?? '';
+  const costs: Record<string, number> = {};
+  for (const cm of costsBlock.matchAll(/(\d+):\s*(\d+)/g)) {
+    costs[cm[1]] = Number(cm[2]);
+  }
+
+  const bonuses = (text.match(/bonuses:\s*\[([\d,\s]+)\]/)?.[1] ?? '2, 1')
+    .split(',')
+    .map((n) => Number(n.trim()));
+  const formula = text.match(/formula:\s*"([^"]+)"/)?.[1] ?? '4d6dl';
+  const max = Number(text.match(/max:\s*(\d+)/)?.[1] ?? 18);
+
+  return { standardArray, pointBuy: { points, costs }, bonuses, rolling: { formula, max } };
+}
+
 // ---------------------------------------------------------------------------
 // Write + validate
 // ---------------------------------------------------------------------------
@@ -402,6 +533,7 @@ function main() {
   const { sourceRoot, commit, systemVersion } = ensureSource();
   console.log(`Source: koboldpress/black-flag @ ${commit.slice(0, 10)} (system ${systemVersion})\n`);
 
+  const repoRoot = path.resolve(sourceRoot, '..', '..');
   const index = buildIdIndex(sourceRoot);
   const classDocs = loadDir(path.join(sourceRoot, 'classes'));
 
@@ -410,7 +542,10 @@ function main() {
   const heritages = extractHeritages(sourceRoot, index);
   const backgrounds = extractBackgrounds(sourceRoot);
   const talents = extractTalents(sourceRoot);
+  const equipment = extractEquipment(sourceRoot);
   const features = [...featureMap.values()];
+  const skills = extractSkills(repoRoot);
+  const abilityRules = extractAbilityRules(repoRoot);
 
   console.log('Writing src/data/*.open.json:');
   writeData('classes.open.json', classDefSchema, classes);
@@ -420,6 +555,22 @@ function main() {
   writeData('heritages.open.json', heritageDefSchema, heritages);
   writeData('backgrounds.open.json', backgroundDefSchema, backgrounds);
   writeData('talents.open.json', talentDefSchema, talents);
+  writeData('equipment.open.json', equipmentDefSchema, equipment);
+
+  // System rules config (not licensed content; written as plain JSON).
+  console.log('Writing src/data/*.json (rules config):');
+  const skillsParsed = z.array(skillDefSchema).parse(skills);
+  writeFileSync(
+    path.join(DATA_DIR, 'skills.json'),
+    JSON.stringify(skillsParsed, null, 2) + '\n',
+  );
+  console.log(`  ✓ skills.json                ${skillsParsed.length} records`);
+  const abilityRulesParsed = abilityRulesSchema.parse(abilityRules);
+  writeFileSync(
+    path.join(DATA_DIR, 'abilityRules.json'),
+    JSON.stringify(abilityRulesParsed, null, 2) + '\n',
+  );
+  console.log(`  ✓ abilityRules.json          standard array [${abilityRulesParsed.standardArray}]`);
 
   // Provenance.
   writeFileSync(
@@ -438,6 +589,7 @@ function main() {
           heritages: heritages.length,
           backgrounds: backgrounds.length,
           talents: talents.length,
+          equipment: equipment.length,
         },
         note: 'Open BFRD content (CC-BY 4.0 / ORC). Spells deferred to M7; equipment to M3. Proprietary content lives in *.proprietary.json.',
       },

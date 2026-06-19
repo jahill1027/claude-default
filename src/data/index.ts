@@ -1,12 +1,14 @@
 import { z } from 'zod';
 import { INCLUDE_PROPRIETARY } from '@/config';
 import {
+  abilityRulesSchema,
   backgroundDefSchema,
   classDefSchema,
   equipmentDefSchema,
   featureDefSchema,
   heritageDefSchema,
   lineageDefSchema,
+  skillDefSchema,
   spellDefSchema,
   subclassDefSchema,
   talentDefSchema,
@@ -36,6 +38,10 @@ import spellsOpen from './spells.open.json';
 import spellsProp from './spells.proprietary.json';
 import equipmentOpen from './equipment.open.json';
 import equipmentProp from './equipment.proprietary.json';
+
+// System rules config (not licensed content; not profile-filtered).
+import skillsRaw from './skills.json';
+import abilityRulesRaw from './abilityRules.json';
 
 /** Drop proprietary records unless this is a personal build. Pure + testable. */
 export function selectByProfile<T extends { source: 'open' | 'proprietary' }>(
@@ -118,6 +124,11 @@ export const equipment = load(
   equipmentProp,
   'equipment',
 );
+
+/** Skill -> ability map (18 skills). */
+export const skills = z.array(skillDefSchema).parse(skillsRaw);
+/** Standard array, point-buy costs, and creation bonuses. */
+export const abilityRules = abilityRulesSchema.parse(abilityRulesRaw);
 
 export const contentData = {
   classes,

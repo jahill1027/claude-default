@@ -1,1 +1,860 @@
-[]
+[
+  {
+    "id": "chain-mail",
+    "name": "Chain Mail",
+    "source": "open",
+    "category": "armor",
+    "cost": "75 gp",
+    "weight": 55,
+    "armor": {
+      "category": "heavy",
+      "baseAc": 16,
+      "dexBonus": "none",
+      "stealthDisadvantage": true
+    }
+  },
+  {
+    "id": "plate",
+    "name": "Plate",
+    "source": "open",
+    "category": "armor",
+    "cost": "1500 gp",
+    "weight": 65,
+    "armor": {
+      "category": "heavy",
+      "baseAc": 18,
+      "dexBonus": "none",
+      "stealthDisadvantage": true
+    }
+  },
+  {
+    "id": "ring-mail",
+    "name": "Ring Mail",
+    "source": "open",
+    "category": "armor",
+    "cost": "30 gp",
+    "weight": 40,
+    "armor": {
+      "category": "heavy",
+      "baseAc": 14,
+      "dexBonus": "none",
+      "stealthDisadvantage": true
+    }
+  },
+  {
+    "id": "splint",
+    "name": "Splint",
+    "source": "open",
+    "category": "armor",
+    "cost": "200 gp",
+    "weight": 60,
+    "armor": {
+      "category": "heavy",
+      "baseAc": 17,
+      "dexBonus": "none",
+      "stealthDisadvantage": true
+    }
+  },
+  {
+    "id": "brigandine",
+    "name": "Brigandine",
+    "source": "open",
+    "category": "armor",
+    "cost": "50 gp",
+    "weight": 25,
+    "armor": {
+      "category": "light",
+      "baseAc": 13,
+      "dexBonus": "full",
+      "stealthDisadvantage": true
+    }
+  },
+  {
+    "id": "leather",
+    "name": "Leather",
+    "source": "open",
+    "category": "armor",
+    "cost": "10 gp",
+    "weight": 10,
+    "armor": {
+      "category": "light",
+      "baseAc": 11,
+      "dexBonus": "full",
+      "stealthDisadvantage": false
+    }
+  },
+  {
+    "id": "padded",
+    "name": "Padded",
+    "source": "open",
+    "category": "armor",
+    "cost": "5 gp",
+    "weight": 8,
+    "armor": {
+      "category": "light",
+      "baseAc": 11,
+      "dexBonus": "full",
+      "stealthDisadvantage": true
+    }
+  },
+  {
+    "id": "studded-leather",
+    "name": "Studded Leather",
+    "source": "open",
+    "category": "armor",
+    "cost": "45 gp",
+    "weight": 13,
+    "armor": {
+      "category": "light",
+      "baseAc": 12,
+      "dexBonus": "full",
+      "stealthDisadvantage": false
+    }
+  },
+  {
+    "id": "breastplate",
+    "name": "Breastplate",
+    "source": "open",
+    "category": "armor",
+    "cost": "400 gp",
+    "weight": 20,
+    "armor": {
+      "category": "medium",
+      "baseAc": 14,
+      "dexBonus": "capped",
+      "dexCap": 2,
+      "stealthDisadvantage": false
+    }
+  },
+  {
+    "id": "chain-shirt",
+    "name": "Chain Shirt",
+    "source": "open",
+    "category": "armor",
+    "cost": "50 gp",
+    "weight": 20,
+    "armor": {
+      "category": "medium",
+      "baseAc": 13,
+      "dexBonus": "capped",
+      "dexCap": 2,
+      "stealthDisadvantage": false
+    }
+  },
+  {
+    "id": "half-plate",
+    "name": "Half Plate",
+    "source": "open",
+    "category": "armor",
+    "cost": "750 gp",
+    "weight": 40,
+    "armor": {
+      "category": "medium",
+      "baseAc": 15,
+      "dexBonus": "capped",
+      "dexCap": 2,
+      "stealthDisadvantage": true
+    }
+  },
+  {
+    "id": "hide",
+    "name": "Hide",
+    "source": "open",
+    "category": "armor",
+    "cost": "10 gp",
+    "weight": 12,
+    "armor": {
+      "category": "medium",
+      "baseAc": 12,
+      "dexBonus": "capped",
+      "dexCap": 2,
+      "stealthDisadvantage": false
+    }
+  },
+  {
+    "id": "scale-mail",
+    "name": "Scale Mail",
+    "source": "open",
+    "category": "armor",
+    "cost": "50 gp",
+    "weight": 45,
+    "armor": {
+      "category": "medium",
+      "baseAc": 14,
+      "dexBonus": "capped",
+      "dexCap": 2,
+      "stealthDisadvantage": true
+    }
+  },
+  {
+    "id": "shield",
+    "name": "Shield",
+    "source": "open",
+    "category": "armor",
+    "cost": "10 gp",
+    "weight": 6,
+    "armor": {
+      "category": "shield",
+      "baseAc": 2,
+      "dexBonus": "none",
+      "stealthDisadvantage": false
+    }
+  },
+  {
+    "id": "battleaxe",
+    "name": "Battleaxe",
+    "source": "open",
+    "category": "weapon",
+    "cost": "10 gp",
+    "weight": 4,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "slashing",
+      "properties": [
+        "martial",
+        "melee",
+        "versatile"
+      ]
+    }
+  },
+  {
+    "id": "club",
+    "name": "Club",
+    "source": "open",
+    "category": "weapon",
+    "cost": "1 sp",
+    "weight": 2,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "bludgeoning",
+      "properties": [
+        "simple",
+        "melee",
+        "light"
+      ]
+    }
+  },
+  {
+    "id": "dagger",
+    "name": "Dagger",
+    "source": "open",
+    "category": "weapon",
+    "cost": "2 gp",
+    "weight": 1,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "piercing",
+      "properties": [
+        "simple",
+        "melee",
+        "finesse",
+        "light",
+        "thrown"
+      ]
+    }
+  },
+  {
+    "id": "flail",
+    "name": "Flail",
+    "source": "open",
+    "category": "weapon",
+    "cost": "10 gp",
+    "weight": 2,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "bludgeoning",
+      "properties": [
+        "martial",
+        "melee"
+      ]
+    }
+  },
+  {
+    "id": "glaive",
+    "name": "Glaive",
+    "source": "open",
+    "category": "weapon",
+    "cost": "20 gp",
+    "weight": 6,
+    "weapon": {
+      "damage": "1d10",
+      "damageType": "slashing",
+      "properties": [
+        "martial",
+        "melee",
+        "heavy",
+        "reach",
+        "twoHanded"
+      ]
+    }
+  },
+  {
+    "id": "greataxe",
+    "name": "Greataxe",
+    "source": "open",
+    "category": "weapon",
+    "cost": "30 gp",
+    "weight": 7,
+    "weapon": {
+      "damage": "1d12",
+      "damageType": "slashing",
+      "properties": [
+        "martial",
+        "melee",
+        "heavy",
+        "twoHanded"
+      ]
+    }
+  },
+  {
+    "id": "greatclub",
+    "name": "Greatclub",
+    "source": "open",
+    "category": "weapon",
+    "cost": "2 sp",
+    "weight": 10,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "bludgeoning",
+      "properties": [
+        "simple",
+        "melee",
+        "twoHanded"
+      ]
+    }
+  },
+  {
+    "id": "greatsword",
+    "name": "Greatsword",
+    "source": "open",
+    "category": "weapon",
+    "cost": "50 gp",
+    "weight": 6,
+    "weapon": {
+      "damage": "2d6",
+      "damageType": "slashing",
+      "properties": [
+        "martial",
+        "melee",
+        "heavy",
+        "twoHanded"
+      ]
+    }
+  },
+  {
+    "id": "halberd",
+    "name": "Halberd",
+    "source": "open",
+    "category": "weapon",
+    "cost": "20 gp",
+    "weight": 6,
+    "weapon": {
+      "damage": "1d10",
+      "damageType": "slashing",
+      "properties": [
+        "martial",
+        "melee",
+        "heavy",
+        "reach",
+        "twoHanded"
+      ]
+    }
+  },
+  {
+    "id": "handaxe",
+    "name": "Handaxe",
+    "source": "open",
+    "category": "weapon",
+    "cost": "5 gp",
+    "weight": 2,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "slashing",
+      "properties": [
+        "simple",
+        "melee",
+        "light",
+        "thrown"
+      ]
+    }
+  },
+  {
+    "id": "javelin",
+    "name": "Javelin",
+    "source": "open",
+    "category": "weapon",
+    "cost": "5 sp",
+    "weight": 2,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "piercing",
+      "properties": [
+        "simple",
+        "melee",
+        "thrown"
+      ]
+    }
+  },
+  {
+    "id": "lance",
+    "name": "Lance",
+    "source": "open",
+    "category": "weapon",
+    "cost": "10 gp",
+    "weight": 6,
+    "weapon": {
+      "damage": "1d12",
+      "damageType": "piercing",
+      "properties": [
+        "martial",
+        "melee",
+        "reach",
+        "special"
+      ]
+    }
+  },
+  {
+    "id": "light-hammer",
+    "name": "Light Hammer",
+    "source": "open",
+    "category": "weapon",
+    "cost": "2 gp",
+    "weight": 2,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "bludgeoning",
+      "properties": [
+        "simple",
+        "melee",
+        "light",
+        "thrown"
+      ]
+    }
+  },
+  {
+    "id": "longsword",
+    "name": "Longsword",
+    "source": "open",
+    "category": "weapon",
+    "cost": "15 gp",
+    "weight": 3,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "slashing",
+      "properties": [
+        "martial",
+        "melee",
+        "versatile"
+      ]
+    }
+  },
+  {
+    "id": "mace",
+    "name": "Mace",
+    "source": "open",
+    "category": "weapon",
+    "cost": "5 gp",
+    "weight": 4,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "bludgeoning",
+      "properties": [
+        "simple",
+        "melee"
+      ]
+    }
+  },
+  {
+    "id": "maul",
+    "name": "Maul",
+    "source": "open",
+    "category": "weapon",
+    "cost": "10 gp",
+    "weight": 10,
+    "weapon": {
+      "damage": "2d6",
+      "damageType": "bludgeoning",
+      "properties": [
+        "martial",
+        "melee",
+        "heavy",
+        "twoHanded"
+      ]
+    }
+  },
+  {
+    "id": "morningstar",
+    "name": "Morningstar",
+    "source": "open",
+    "category": "weapon",
+    "cost": "15 gp",
+    "weight": 4,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "piercing",
+      "properties": [
+        "martial",
+        "melee"
+      ]
+    }
+  },
+  {
+    "id": "pike",
+    "name": "Pike",
+    "source": "open",
+    "category": "weapon",
+    "cost": "5 gp",
+    "weight": 18,
+    "weapon": {
+      "damage": "1d10",
+      "damageType": "piercing",
+      "properties": [
+        "martial",
+        "melee",
+        "heavy",
+        "reach",
+        "twoHanded"
+      ]
+    }
+  },
+  {
+    "id": "quarterstaff",
+    "name": "Quarterstaff",
+    "source": "open",
+    "category": "weapon",
+    "cost": "2 sp",
+    "weight": 4,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "bludgeoning",
+      "properties": [
+        "simple",
+        "melee",
+        "versatile"
+      ]
+    }
+  },
+  {
+    "id": "rapier",
+    "name": "Rapier",
+    "source": "open",
+    "category": "weapon",
+    "cost": "25 gp",
+    "weight": 2,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "piercing",
+      "properties": [
+        "martial",
+        "melee",
+        "finesse"
+      ]
+    }
+  },
+  {
+    "id": "scimitar",
+    "name": "Scimitar",
+    "source": "open",
+    "category": "weapon",
+    "cost": "25 gp",
+    "weight": 3,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "slashing",
+      "properties": [
+        "martial",
+        "melee",
+        "finesse",
+        "light"
+      ]
+    }
+  },
+  {
+    "id": "scythe",
+    "name": "Scythe",
+    "source": "open",
+    "category": "weapon",
+    "cost": "20 gp",
+    "weight": 4,
+    "weapon": {
+      "damage": "2d4",
+      "damageType": "slashing",
+      "properties": [
+        "martial",
+        "melee",
+        "reach",
+        "twoHanded"
+      ]
+    }
+  },
+  {
+    "id": "shortsword",
+    "name": "Shortsword",
+    "source": "open",
+    "category": "weapon",
+    "cost": "10 gp",
+    "weight": 2,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "piercing",
+      "properties": [
+        "martial",
+        "melee",
+        "finesse",
+        "light"
+      ]
+    }
+  },
+  {
+    "id": "sickle",
+    "name": "Sickle",
+    "source": "open",
+    "category": "weapon",
+    "cost": "1 gp",
+    "weight": 2,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "slashing",
+      "properties": [
+        "simple",
+        "melee",
+        "light"
+      ]
+    }
+  },
+  {
+    "id": "spear",
+    "name": "Spear",
+    "source": "open",
+    "category": "weapon",
+    "cost": "1 gp",
+    "weight": 3,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "piercing",
+      "properties": [
+        "simple",
+        "melee",
+        "reach",
+        "versatile"
+      ]
+    }
+  },
+  {
+    "id": "trident",
+    "name": "Trident",
+    "source": "open",
+    "category": "weapon",
+    "cost": "5 gp",
+    "weight": 4,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "piercing",
+      "properties": [
+        "martial",
+        "melee",
+        "thrown",
+        "versatile"
+      ]
+    }
+  },
+  {
+    "id": "war-pick",
+    "name": "War Pick",
+    "source": "open",
+    "category": "weapon",
+    "cost": "5 gp",
+    "weight": 2,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "piercing",
+      "properties": [
+        "martial",
+        "melee"
+      ]
+    }
+  },
+  {
+    "id": "warhammer",
+    "name": "Warhammer",
+    "source": "open",
+    "category": "weapon",
+    "cost": "15 gp",
+    "weight": 2,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "bludgeoning",
+      "properties": [
+        "martial",
+        "melee",
+        "versatile"
+      ]
+    }
+  },
+  {
+    "id": "whip",
+    "name": "Whip",
+    "source": "open",
+    "category": "weapon",
+    "cost": "2 gp",
+    "weight": 3,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "slashing",
+      "properties": [
+        "martial",
+        "melee",
+        "finesse",
+        "reach"
+      ]
+    }
+  },
+  {
+    "id": "blowgun",
+    "name": "Blowgun",
+    "source": "open",
+    "category": "weapon",
+    "cost": "10 gp",
+    "weight": 1,
+    "weapon": {
+      "damage": "",
+      "damageType": "piercing",
+      "properties": [
+        "martial",
+        "ranged",
+        "ammunition",
+        "loading"
+      ]
+    }
+  },
+  {
+    "id": "dart",
+    "name": "Dart",
+    "source": "open",
+    "category": "weapon",
+    "cost": "5 cp",
+    "weight": 0.25,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "piercing",
+      "properties": [
+        "simple",
+        "ranged",
+        "finesse",
+        "thrown"
+      ]
+    }
+  },
+  {
+    "id": "hand-crossbow",
+    "name": "Hand Crossbow",
+    "source": "open",
+    "category": "weapon",
+    "cost": "75 gp",
+    "weight": 3,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "piercing",
+      "properties": [
+        "martial",
+        "ranged",
+        "ammunition",
+        "light",
+        "loading"
+      ]
+    }
+  },
+  {
+    "id": "heavy-crossbow",
+    "name": "Heavy Crossbow",
+    "source": "open",
+    "category": "weapon",
+    "cost": "50 gp",
+    "weight": 18,
+    "weapon": {
+      "damage": "1d10",
+      "damageType": "piercing",
+      "properties": [
+        "martial",
+        "ranged",
+        "ammunition",
+        "heavy",
+        "loading",
+        "twoHanded"
+      ]
+    }
+  },
+  {
+    "id": "light-crossbow",
+    "name": "Light Crossbow",
+    "source": "open",
+    "category": "weapon",
+    "cost": "25 gp",
+    "weight": 5,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "piercing",
+      "properties": [
+        "simple",
+        "ranged",
+        "ammunition",
+        "loading",
+        "twoHanded"
+      ]
+    }
+  },
+  {
+    "id": "longbow",
+    "name": "Longbow",
+    "source": "open",
+    "category": "weapon",
+    "cost": "50 gp",
+    "weight": 2,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "piercing",
+      "properties": [
+        "martial",
+        "ranged",
+        "ammunition",
+        "heavy",
+        "twoHanded"
+      ]
+    }
+  },
+  {
+    "id": "shortbow",
+    "name": "Shortbow",
+    "source": "open",
+    "category": "weapon",
+    "cost": "25 gp",
+    "weight": 2,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "piercing",
+      "properties": [
+        "simple",
+        "ranged",
+        "ammunition",
+        "twoHanded"
+      ]
+    }
+  },
+  {
+    "id": "sling",
+    "name": "Sling",
+    "source": "open",
+    "category": "weapon",
+    "cost": "1 sp",
+    "weight": 0,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "bludgeoning",
+      "properties": [
+        "simple",
+        "ranged",
+        "ammunition"
+      ]
+    }
+  }
+]
