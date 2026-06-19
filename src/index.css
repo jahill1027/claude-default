@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Theme tokens.
+ *
+ * Each color is stored as a space-separated "R G B" triplet (no rgb() wrapper)
+ * so Tailwind can apply alpha modifiers via rgb(var(--token) / <alpha-value>).
+ * Themes are selected by the [data-theme] attribute on <html>, set at runtime
+ * by the theme store. Light is the default for any unknown value.
+ */
+
+:root,
+[data-theme='light'] {
+  color-scheme: light;
+  --color-bg: 245 243 238; /* warm parchment */
+  --color-surface: 255 255 255;
+  --color-surface-2: 240 237 230;
+  --color-line: 214 209 197;
+  --color-fg: 33 31 28;
+  --color-muted: 104 99 90;
+  --color-primary: 124 45 35; /* deep oxblood */
+  --color-primary-fg: 255 252 247;
+  --color-accent: 176 137 60; /* antique gold */
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+  --color-bg: 22 24 28; /* dark slate */
+  --color-surface: 30 33 39;
+  --color-surface-2: 38 42 49;
+  --color-line: 56 61 70;
+  --color-fg: 233 232 228;
+  --color-muted: 154 158 166;
+  --color-primary: 198 96 78; /* warmer oxblood for contrast on dark */
+  --color-primary-fg: 24 18 16;
+  --color-accent: 212 176 102;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-bg text-fg antialiased;
+  /* Smooth the swap between themes without animating page load. */
+  transition: background-color 150ms ease, color 150ms ease;
+}
